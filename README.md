@@ -39,10 +39,12 @@ LogEval evaluated various LLMs on LogEval to understand their abilities in addre
 
 ## Datasets
 
-LogEval selects 4,000 publicly available log data entries and designs 15 different prompts for each task to ensure the comprehensiveness and fairness of the evaluation. The table below provides an overview of sources of log data entries and the reference of 15 different prompts is .
+LogEval selects 4,000 publicly available log data entries and designs 15 different prompts for each task to ensure the comprehensiveness and fairness of the evaluation. The tables below provides an overview of sources of log data entries and some of the reference of 15 different prompts.
 
 | Dataset     | The number of log entries | Reference                                                    |
 |-------------|---------------------------|--------------------------------------------------------------|
+|CMCC| | |
+|aliyun| | |
 
 ## Evaluation Measures
 
