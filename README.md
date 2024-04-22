@@ -83,34 +83,34 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
   <tr>
     <td rowspan="2"> Log Anomaly Detection </td>
     <td> NeuralLog </td>
-    <td></td>
+    <td>https://github.com/vanhoanglepsa/NeuralLog</td>
   </tr>
   <tr>
     <td> LogRobust </td>
-    <td></td>
+    <td>unpublished</td>
   </tr>
   <tr>
     <td rowspan="2"> Log Parsing </td>
     <td> Drain </td>
-    <td></td>
+    <td>http://appsrv.cse.cuhk.edu.hk/ ∼pjhe/Drain.py</td>
   </tr>
   <tr>
     <td> LogPPT </td>
-    <td></td>
+    <td>https://github.com/LogIntelligence/LogPPT</td>
   </tr>
   <tr>
     <td rowspan="2"> Log Failure Diagnosis </td>
     <td> LogKG </td>
-    <td></td>
+    <td>https://anonymous.4open.science/r/LogKG-A6BD</td>
   </tr>
   <tr>
     <td> LogCluster </td>
-    <td></td>
+    <td>https://ristov.github.io/logcluster/</td>
   </tr>
   <tr>
     <td> Log Summarization Extraction </td>
     <td> LogSummary </td>
-    <td></td>
+    <td>https://github.com/LogSummary/code-and-datasets</td>
   </tr>
 </table>
 
