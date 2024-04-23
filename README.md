@@ -53,6 +53,78 @@ LogEval selects 4,000 publicly available log data entries and designs 15 differe
 |Zookeeper|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 |Proxifier|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 
+<table>
+  <tr>
+    <th>Task</th>
+    <th>English</th>
+    <th>Chinese</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Log parsing</td>
+    <td>
+      1.Parse the following log into a template format，replacing variable parts with a wildcard <*>：[log]
+    </td>
+    <td>
+      1.将以下日志解析为结构化模板，用<*>替换变量部分：[log]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      2.Replace the variable parts with <*> to convert the following log into a structured template: [log]
+    </td>
+    <td>
+      2.用 <*> 代替变量部分，将以下日志转换为结构化模板:[log]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      3.Transform the raw log [log] into a log template by replacing variable segments with <*>
+    </td>
+    <td>
+      3.用 <*>替换变量部分，将原始日志 [log] 转换为日志模板
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="3">Log anomaly detection</td>
+    <td>1.Please review the log entry and explicitly mark it as "normal" or "abnormal," only output "normal" or "abnormal.</td>
+    <td>1.请审查日志，并明确标记为“正常”或“异常”，只输出“正常”或“异常”即可</td>
+  </tr>
+  <tr>
+    <td>2.Analyze the content of the log entry, directly classify it as "normal" or "abnormal," only output "normal" or "abnormal."</td>
+    <td>2.分析日志中的内容，直接分类为“正常”或“异常”，只输出“正常”或“异常”即可</td>
+  </tr>
+  <tr>
+    <td>3.Please check the log entry, and determine whether it belongs to the "normal" category or the "abnormal" category, only output "normal" or "abnormal."</td>
+    <td>3.请检查日志，并判断其为“正常”类别，还是“异常”类别，只输出“正常”或“异常”即可</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Log failure diagnosis</td>
+    <td>1.In our data scenario, there are several types of faults {fault types}. Analyze the log [log] and identify the type of fault that occurred. Only output the fault type.</td>
+    <td>1.我们的数据场景有以下几种故障{故障类型}，分析日志 [log]，识别出现的故障类型，只输出故障类型即可</td>
+  </tr>
+  <tr>
+    <td>2.In our data scenario, there are several types of faults {fault types}. Based on the information in the log [log], determine which type of fault the log represents. Only output the fault type.</td>
+    <td>2.我们的数据场景有以下几种故障{故障类型}，根据日志 [log] 中的信息，判断日志是哪类故障，只输出故障类型即可</td>
+  </tr>
+  <tr>
+    <td>3.In our data scenario, there are several types of faults {fault types}. Use the detailed information provided by the log [log] to conduct an in-depth analysis to determine the category of the fault. Only output the fault type.</td>
+    <td>3.我们的数据场景有以下几种故障{故障类型}，使用日志 [log] 提供的详细信息，进行深入分析以确定故障的类别，只输出故障类型即可</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Log summarization extraction</td>
+    <td>1.Analyze the following 20 logs [log], extract key information, phrases, sentences, or recurring content to generate a summary, only output the summary.</td>
+    <td>1.分析以下20条日志 [log]，提取其中的关键信息、短语、句子或重复出现的内容，以生成摘要，只输出摘要即可</td>
+  </tr>
+  <tr>
+    <td>2.Extract the most important events, phrases, and activities or recurring content from the following 20 logs [log], create a concise log overview, only output the summary.</td>
+    <td>2.从以下20条日志 [log] 中提取最重要的事件、短语和活动或重复出现的内容，生成一个简明的日志概要，只输出摘要即可</td>
+  </tr>
+  <tr>
+    <td>3.Extract key events, sentence phrases, or recurring information from the following 20 logs [log] to form a comprehensive summary, only output the summary.</td>
+    <td>3.从以下20条日志 [log] 中提取关键事件、句子短语或重复出现的信息，以形成一个全面的摘要，只输出摘要即可</td>
+  </tr>
+</table>
+
 ## Evaluation Measures
 
 The benchmark covers tasks such as Log Parsing(Subjective Questions), Log Anomaly Detection, Log Failure Diagnosis(Objective Questions), and Log Summarization Extraction(Subjective Questions).
