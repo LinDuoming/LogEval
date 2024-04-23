@@ -43,8 +43,15 @@ LogEval selects 4,000 publicly available log data entries and designs 15 differe
 
 | Dataset     | The number of log entries | Reference                                                    |
 |-------------|---------------------------|--------------------------------------------------------------|
-|CMCC| | |
-|aliyun| | |
+|BGL|2000|https://github.com/logpai/loghub|
+|Thunderbird|2000|https://github.com/logpai/loghub|
+|cmcc|45880||
+|aliyun|34120||
+|HDFS|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|HPC|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Spark|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Zookeeper|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Proxifier|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 
 ## Evaluation Measures
 
