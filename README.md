@@ -13,6 +13,7 @@
     - [Log Anomaly Detection](#log-anormaly-detection)
     - [Log Failure Diagnosis](#log-failure-diagnosis)
     - [Log Summarization Extraction](#log-summary-extraction)
+    - [Conclusion](conclusion)
 
 ## Introduction
 
@@ -207,4 +208,8 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
 ### Log Summarization Extraction
 
   ![Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/15.png)
+  Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy
   ![Log Summary zero-shot/few-shot English Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/16.png)
+  Log Summary zero-shot/few-shot English Naive Q&A Accuracy
+
+### Conclusion
