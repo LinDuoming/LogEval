@@ -205,11 +205,36 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
 
 ### Log Failure Diagnosis
 
+  ![Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/10.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A Accuracy</center>
+
+  ![Log Failure Diagnosis zero-shot/few-shot English Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/11.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot English Naive Q&A Accuracy</center>
+  
+  ![Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/12.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A F1-score</center>
+
+  ![Log Failure Diagnosis zero-shot/few-shot English Naive Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/13.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot English Naive Q&A F1-score</center>
+
+  ![Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/21.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A Accuracy</center>
+  
+  ![Log Failure Diagnosis zero-shot/few-shot English SC Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/22.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot English SC Q&A Accuracy</center>
+  
+  ![Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/23.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A F1-score</center>
+  
+  ![Log Failure Diagnosis zero-shot/few-shot English SC Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/24.png)
+  <center>Log Failure Diagnosis zero-shot/few-shot English SC Q&A F1-score</center>
+
 ### Log Summarization Extraction
 
   ![Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/15.png)
-  Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy
+  <center>Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy</center>
+  
   ![Log Summary zero-shot/few-shot English Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/16.png)
-  Log Summary zero-shot/few-shot English Naive Q&A Accuracy
+  <center>Log Summary zero-shot/few-shot English Naive Q&A Accuracy</center>
 
 ### Conclusion
