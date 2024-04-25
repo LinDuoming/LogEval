@@ -10,15 +10,17 @@
 - [Evaluation Measures](#evaluation-measures)
 - [Benchmark Results](#benchmark-results)
     - [Log Parsing](#log-parsing)
-    - [Log Anomaly Detection](#log-anormaly-detection)
+    - [Log Anomaly Detection](#log-anomaly-detection)
     - [Log Failure Diagnosis](#log-failure-diagnosis)
-    - [Log Summarization Extraction](#log-summary-extraction)
-    - [Conclusion](conclusion)
+    - [Log Summary](#log-summary)
+    - [Performance on Inference Time and Average Token](#performance-on-inference-time-and-average-token)
+    - [Performance on Different parameters](#performance-on-different-parameters)
+    - [Performance on Different Languages](#performance-on-different-languages)
 
 ## Introduction
 
 LogEval is a benchmark suite for LLMs in log analysis tasks, to evaluate LLMs’ capabilities in log analysis at different competency levels for the first time.
-![https://github.com/LinDuoming/LogEval/blob/main/figures/framework.png](https://github.com/LinDuoming/LogEval/blob/main/figures/framework.png)
+<img src="./figures/framework.png">
 
 ## LogEval Methods
 
@@ -43,18 +45,18 @@ LogEval evaluated various LLMs on LogEval to understand their abilities in addre
 
 LogEval selects 4,000 publicly available log data entries and designs 15 different prompts for each task to ensure the comprehensiveness and fairness of the evaluation. The tables below provides an overview of sources of log data entries and some of the reference of 15 different prompts.
 
-| Task      | Dataset     | The number of log entries | Reference                                                    |
-|---|-------------|---------------------------|--------------------------------------------------------------|
-|Log parsing & Log anomaly detection|BGL|2000|https://github.com/logpai/loghub|
-|Log parsing & Log anomaly detection|Thunderbird|2000|https://github.com/logpai/loghub|
-|Log failure diagnosis|cmcc|45880|undisclosed|
-|Log failure diagnosis|aliyun|34120|https://tianchi.aliyun.com/dataset/121954|
-|Log summarization extraction|BGL|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Log summarization extraction|HDFS|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Log summarization extraction|HPC|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Log summarization extraction|Spark|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Log summarization extraction|Zookeeper|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Log summarization extraction|Proxifier|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Task                                | Dataset     | The number of log entries | Reference                                                    |
+|-------------------------------------|-------------|---------------------------|--------------------------------------------------------------|
+| Log parsing & Log anomaly detection |BGL|2000|https://github.com/logpai/loghub|
+| Log parsing & Log anomaly detection |Thunderbird|2000|https://github.com/logpai/loghub|
+| Log failure diagnosis               |cmcc|45880|undisclosed|
+| Log failure diagnosis               |aliyun|34120|https://tianchi.aliyun.com/dataset/121954|
+| Log summary                         |BGL|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Log summary                         |HDFS|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Log summary                         |HPC|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Log summary                         |Spark|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Log summary                         |Zookeeper|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Log summary                         |Proxifier|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 
 <table>
   <tr>
@@ -114,7 +116,7 @@ LogEval selects 4,000 publicly available log data entries and designs 15 differe
     <td>3.我们的数据场景有以下几种故障{故障类型}，使用日志 [log] 提供的详细信息，进行深入分析以确定故障的类别，只输出故障类型即可</td>
   </tr>
   <tr>
-    <td rowspan="3">Log summarization extraction</td>
+    <td rowspan="3">Log summary</td>
     <td>1.Analyze the following 20 logs [log], extract key information, phrases, sentences, or recurring content to generate a summary, only output the summary.</td>
     <td>1.分析以下20条日志 [log]，提取其中的关键信息、短语、句子或重复出现的内容，以生成摘要，只输出摘要即可</td>
   </tr>
@@ -130,7 +132,7 @@ LogEval selects 4,000 publicly available log data entries and designs 15 differe
 
 ## Evaluation Measures
 
-The benchmark covers tasks such as Log Parsing(Subjective Questions), Log Anomaly Detection, Log Failure Diagnosis(Objective Questions), and Log Summarization Extraction(Subjective Questions).
+The benchmark covers tasks such as Log Parsing(Subjective Questions), Log Anomaly Detection, Log Failure Diagnosis(Objective Questions), and Log Summary(Subjective Questions).
 
 1. Log parsing
 
@@ -151,7 +153,7 @@ The benchmark covers tasks such as Log Parsing(Subjective Questions), Log Anomal
   - Original question-answer, few shot
   - Self-consistency, few shot
 
-4. Log summarization extraction
+4. Log summary
 
   - Original question-answer, zero shot
   - Original question-answer, few shot
@@ -192,7 +194,7 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
     <td>https://ristov.github.io/logcluster/</td>
   </tr>
   <tr>
-    <td> Log Summarization Extraction </td>
+    <td> Log Summary </td>
     <td> LogSummary </td>
     <td>https://github.com/LogSummary/code-and-datasets</td>
   </tr>
@@ -201,50 +203,65 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
 ## Benchmark Results
 
 ### Log Parsing
-
+Log Parsing Zero shot/few shot Chinese Naive Q&A Accuracy
+<img src="./figures/3.png">
+Log Parsing Zero shot/few shot English Naive Q&A Accuracy
+<img src="./figures/4.png">
 ### Log Anomaly Detection
-
+Log Anomaly Detection zero shot/few shot Chinese Naive Q&A Accuracy
+<img src="./figures/5.png">
+Log Anomaly Detection zero shot/few shot English Naive Q&A Accuracy
+<img src="./figures/6.png">
+Log Anomaly Detection zero shot/few shot Chinese Naive Q&A F1-score
+<img src="./figures/7.png">
+Log Anomaly Detection zero shot/few shot English Naive Q&A F1-score
+<img src="./figures/8.png">
+Log Anomaly Detection zero shot/few shot Chinese SC Q&A Accuracy
+<img src="./figures/17.png">
+Log Anomaly Detection zero shot/few shot English SC Q&A Accuracy
+<img src="./figures/18.png">
+Log Anomaly Detection zero shot/few shot Chinese SC Q&A F1 score
+<img src="./figures/19.png">
+Log Anomaly Detection zero shot/few shot English SC Q&A F1-score
+<img src="./figures/20.png">
+Log Anomaly Detection zero shot/few shot English SC Variance
+<img src="./figures/33.png">
+Log Anomaly Detection zero shot/few shot Chinese SC Variance
+<img src="./figures/34.png">
 ### Log Failure Diagnosis
-
-  ![Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/10.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A Accuracy</center>
-
-  ![Log Failure Diagnosis zero-shot/few-shot English Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/11.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot English Naive Q&A Accuracy</center>
-  
-  ![Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/12.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot Chinese Naive Q&A F1-score</center>
-
-  ![Log Failure Diagnosis zero-shot/few-shot English Naive Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/13.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot English Naive Q&A F1-score</center>
-
-  ![Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/21.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A Accuracy</center>
-  
-  ![Log Failure Diagnosis zero-shot/few-shot English SC Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/22.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot English SC Q&A Accuracy</center>
-  
-  ![Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/23.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot Chinese SC Q&A F1-score</center>
-  
-  ![Log Failure Diagnosis zero-shot/few-shot English SC Q&A F1-score](https://github.com/LinDuoming/LogEval/blob/main/figures/24.png)
-  <center>Log Failure Diagnosis zero-shot/few-shot English SC Q&A F1-score</center>
-
-### Log Summarization Extraction
-
-  ![Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/15.png)
-  <center>Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy</center>
-  
-  ![Log Summary zero-shot/few-shot English Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/16.png)
-  <center>Log Summary zero-shot/few-shot English Naive Q&A Accuracy</center>
-
-### Conclusion
-
-  ![The Inference Time in the Naive Q\&A situation in log analysis by zero-shot](https://github.com/LinDuoming/LogEval/blob/main/figures/25.png)
-  <center>The Inference Time in the Naive Q\&A situation in log analysis by zero-shot</center>
-
-  ![The Average Token in the Naive Q\&A situation in log analysis by zero shot](https://github.com/LinDuoming/LogEval/blob/main/figures/26.png)
-  <center>The Average Token in the Naive Q\&A situation in log analysis by zero shot</center>
-
-  ![The Accuracy of LLaMa2 and Qwen1.5 in zero-shot English Naive Q\&A](https://github.com/LinDuoming/LogEval/blob/main/figures/27.png)
-  <center>The Average Token in the Naive Q\&A situation in log analysis by zero shot</center>
+Log Failure Diagnosis Zero shot/few shot Chinese Naive Q&A Accuracy
+<img src="./figures/10.png">
+Log Failure Diagnosis Zero shot/few shot English Naive Q&A Accuracy
+<img src="./figures/11.png">
+Log Failure Diagnosis Zero shot/few shot Chinese Naive Q&A F1-score
+<img src="./figures/12.png">
+Log Failure Diagnosis Zero shot/few shot English Naive Q&A F1-score
+<img src="./figures/13.png">
+Log Failure Diagnosis zero shot/few shot Chinese SC Q&A Accuracy
+<img src="./figures/21.png">
+Log Failure Diagnosis zero shot/few shot English SC Q&A Accuracy
+<img src="./figures/22.png">
+Log Failure Diagnosis zero shot/few shot Chinese SC Q&A F1 score
+<img src="./figures/23.png">
+Log Failure Diagnosis zero shot/few shot English SC Q&A F1 score
+<img src="./figures/24.png">
+Log Failure Diagnosis zero shot/few shot English SC Variance
+<img src="./figures/35.png">
+Log Failure Diagnosis zero shot/few shot Chinese SC Variance
+<img src="./figures/36.png">
+### Log Summary
+Log Summary Zero shot/few shot Chinese Naive Q&A Accuracy
+<img src="./figures/15.png">
+Log Summary Zero shot/few shot English Naive Q&A Accuracy
+<img src="./figures/16.png">
+### Performance on Inference Time and Average Token
+The Inference Time in the Naive Q&A situation in log analysis by zero shot
+<img src="./figures/25.png">
+The Average Token in the Naive Q&A situation in log analysis by zero shot
+<img src="./figures/26.png">
+### Performance on Different parameters
+The Accuracy of LLaMa2 and Qwen1.5 in zero-shot English Naive Q&A
+<img src="./figures/27.png">
+### Performance on Different Languages
+The performance of LLMs on failure diagnosis tasks under the "zero-shot" naive Q&A in both Chinese and English test sets
+<img src="./figures/29.png">
