@@ -47,8 +47,8 @@ LogEval selects 4,000 publicly available log data entries and designs 15 differe
 |---|-------------|---------------------------|--------------------------------------------------------------|
 |Log parsing & Log anomaly detection|BGL|2000|https://github.com/logpai/loghub|
 |Log parsing & Log anomaly detection|Thunderbird|2000|https://github.com/logpai/loghub|
-|Log failure diagnosis|cmcc|45880||
-|Log failure diagnosis|aliyun|34120||
+|Log failure diagnosis|cmcc|45880|undisclosed|
+|Log failure diagnosis|aliyun|34120|https://tianchi.aliyun.com/dataset/121954|
 |Log summarization extraction|BGL|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 |Log summarization extraction|HDFS|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 |Log summarization extraction|HPC|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
@@ -171,7 +171,7 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
   </tr>
   <tr>
     <td> LogRobust </td>
-    <td>unpublished</td>
+    <td>undisclosed</td>
   </tr>
   <tr>
     <td rowspan="2"> Log Parsing </td>
@@ -239,3 +239,12 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
   <center>Log Summary zero-shot/few-shot English Naive Q&A Accuracy</center>
 
 ### Conclusion
+
+  ![The Inference Time in the Naive Q\&A situation in log analysis by zero-shot](https://github.com/LinDuoming/LogEval/blob/main/figures/25.png)
+  <center>The Inference Time in the Naive Q\&A situation in log analysis by zero-shot</center>
+
+  ![The Average Token in the Naive Q\&A situation in log analysis by zero shot](https://github.com/LinDuoming/LogEval/blob/main/figures/26.png)
+  <center>The Average Token in the Naive Q\&A situation in log analysis by zero shot</center>
+
+  ![The Accuracy of LLaMa2 and Qwen1.5 in zero-shot English Naive Q\&A](https://github.com/LinDuoming/LogEval/blob/main/figures/27.png)
+  <center>The Average Token in the Naive Q\&A situation in log analysis by zero shot</center>
