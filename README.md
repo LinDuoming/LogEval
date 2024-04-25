@@ -18,6 +18,7 @@
 ## Introduction
 
 LogEval is a benchmark suite for LLMs in log analysis tasks, to evaluate LLMs’ capabilities in log analysis at different competency levels for the first time.
+![https://github.com/LinDuoming/LogEval/blob/main/figures/framework.png](https://github.com/LinDuoming/LogEval/blob/main/figures/framework.png)
 
 ## LogEval Methods
 
