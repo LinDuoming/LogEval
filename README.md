@@ -26,8 +26,8 @@ LogEval evaluated various LLMs on LogEval to understand their abilities in addre
 | ---- | ----- | ------  | -----  |
 | 2023  | GPT-4 Technical Report | GPT4  |  https://platform.openai.com/docs/api-reference/chat/create |
 | 2022  | https://openai.com/blog/chatgpt | GPT3.5  |  https://platform.openai.com/docs/api-reference/chat/create |
-| 2024  | https://www.anthropic.com/news/claude-3-family | Claude-3-Sonnet |  
-| 2023 | Gemini: A Family of Highly Capable Multimodal Models | Gemini-Pro |  |
+| 2024  | https://www.anthropic.com/news/claude-3-family | Claude-3-Sonnet | https://www.anthropic.com/api | 
+| 2023 | Gemini: A Family of Highly Capable Multimodal Models | Gemini-Pro | https://gemini.google.com/app |
 | 2023 | Mistral 7B | Mistral 7B | https://github.com/mistralai/mistral-src |
 | 2024 | InternLM2 Technical Report | InternLM2-Chat 7B/20B | https://github.com/InternLM/InternLM |
 | 2023 | https://codefuse.yuque.com/eoxx1u/iuztli/scqgrm7zr4v0e7mg | DevOps-Model-Chat 7B/14B | https://github.com/codefuse-ai/CodeFuse-DevOps-Model |
@@ -41,17 +41,18 @@ LogEval evaluated various LLMs on LogEval to understand their abilities in addre
 
 LogEval selects 4,000 publicly available log data entries and designs 15 different prompts for each task to ensure the comprehensiveness and fairness of the evaluation. The tables below provides an overview of sources of log data entries and some of the reference of 15 different prompts.
 
-| Dataset     | The number of log entries | Reference                                                    |
-|-------------|---------------------------|--------------------------------------------------------------|
-|BGL|2000|https://github.com/logpai/loghub|
-|Thunderbird|2000|https://github.com/logpai/loghub|
-|cmcc|45880||
-|aliyun|34120||
-|HDFS|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|HPC|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Spark|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Zookeeper|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
-|Proxifier|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+| Task      | Dataset     | The number of log entries | Reference                                                    |
+|---|-------------|---------------------------|--------------------------------------------------------------|
+|Log parsing & Log anomaly detection|BGL|2000|https://github.com/logpai/loghub|
+|Log parsing & Log anomaly detection|Thunderbird|2000|https://github.com/logpai/loghub|
+|Log failure diagnosis|cmcc|45880||
+|Log failure diagnosis|aliyun|34120||
+|Log summarization extraction|BGL|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Log summarization extraction|HDFS|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Log summarization extraction|HPC|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Log summarization extraction|Spark|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Log summarization extraction|Zookeeper|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
+|Log summarization extraction|Proxifier|2000|https://github.com/WeibinMeng/LogSummary/tree/main/data/summary/logs|
 
 <table>
   <tr>
