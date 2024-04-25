@@ -206,4 +206,5 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
 
 ### Log Summarization Extraction
 
-  ![Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/tree/main/figures/15.png)
+  ![Log Summary zero-shot/few-shot Chinese Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/15.png)
+  ![Log Summary zero-shot/few-shot English Naive Q&A Accuracy](https://github.com/LinDuoming/LogEval/blob/main/figures/16.png)
