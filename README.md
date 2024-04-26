@@ -26,20 +26,20 @@ LogEval is a benchmark suite for LLMs in log analysis tasks, to evaluate LLMs’
 
 LogEval evaluated various LLMs on LogEval to understand their abilities in addressing different types of questions (multiple-choice and open-ended) and various log analysis tasks. The table below provides an overview of these LLMs along with their references.
 
-| Time | Paper            | Model     | Reference                                                    |
-| ---- | ----- | ------  | -----  |
-| 2023  | GPT-4 Technical Report | GPT4  |  https://platform.openai.com/docs/api-reference/chat/create |
-| 2022  | https://openai.com/blog/chatgpt | GPT3.5  |  https://platform.openai.com/docs/api-reference/chat/create |
-| 2024  | https://www.anthropic.com/news/claude-3-family | Claude-3-Sonnet | https://www.anthropic.com/api | 
-| 2023 | Gemini: A Family of Highly Capable Multimodal Models | Gemini-Pro | https://gemini.google.com/app |
-| 2023 | Mistral 7B | Mistral 7B | https://github.com/mistralai/mistral-src |
-| 2024 | InternLM2 Technical Report | InternLM2-Chat 7B/20B | https://github.com/InternLM/InternLM |
-| 2023 | https://codefuse.yuque.com/eoxx1u/iuztli/scqgrm7zr4v0e7mg | DevOps-Model-Chat 7B/14B | https://github.com/codefuse-ai/CodeFuse-DevOps-Model |
-| 2023 | https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md | AquilaChat2 7B | https://github.com/FlagAI-Open/Aquila2/ |
-| 2024 | https://zhipuai.cn/devday | ChatGLM4 | https://open.bigmodel.cn/dev/api#glm-4 |
-| 2023 | Llama 2: Open Foundation and Fine-Tuned Chat Models | LLaMA-2 7/13/70B | https://github.com/meta-llama/llama |
-| 2024 | https://qwenlm.github.io/blog/qwen1.5/ | Qwen-1.5-Chat 7/14/72B | https://github.com/QwenLM/Qwen1.5 |
-| 2023 | Baichuan 2: Open Large-scale Language Models | Baichuan2-Chat 13B | https://github.com/baichuan-inc/Baichuan2 |
+| Time | Paper            | Model                    | Reference                                                    |
+| ---- | ----- |--------------------------| -----  |
+| 2023  | GPT-4 Technical Report | GPT-4                    |  https://platform.openai.com/docs/api-reference/chat/create |
+| 2022  | https://openai.com/blog/chatgpt | GPT-3.5                  |  https://platform.openai.com/docs/api-reference/chat/create |
+| 2024  | https://www.anthropic.com/news/claude-3-family | Claude-3-Sonnet          | https://www.anthropic.com/api | 
+| 2023 | Gemini: A Family of Highly Capable Multimodal Models | Gemini-Pro               | https://gemini.google.com/app |
+| 2023 | Mistral 7B | Mistral-7B               | https://github.com/mistralai/mistral-src |
+| 2024 | InternLM2 Technical Report | InternLM2-Chat-7B/20B    | https://github.com/InternLM/InternLM |
+| 2023 | https://codefuse.yuque.com/eoxx1u/iuztli/scqgrm7zr4v0e7mg | DevOps-Model-7B/14B-Chat | https://github.com/codefuse-ai/CodeFuse-DevOps-Model |
+| 2023 | https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md | AquilaChat2-7B           | https://github.com/FlagAI-Open/Aquila2/ |
+| 2024 | https://zhipuai.cn/devday | ChatGLM4                 | https://open.bigmodel.cn/dev/api#glm-4 |
+| 2023 | Llama 2: Open Foundation and Fine-Tuned Chat Models | LLaMA-2-7/13/70B         | https://github.com/meta-llama/llama |
+| 2024 | https://qwenlm.github.io/blog/qwen1.5/ | Qwen-1.5-7/14/72B-Chat   | https://github.com/QwenLM/Qwen1.5 |
+| 2023 | Baichuan 2: Open Large-scale Language Models | Baichuan2-13B-Chat       | https://github.com/baichuan-inc/Baichuan2 |
 
 ## Datasets
 
