@@ -9,6 +9,7 @@
 - [Datasets](#datasets)
 - [Evaluation Measures](#evaluation-measures)
 - [Benchmark Results](#benchmark-results)
+<!---
     - [Log Parsing](#log-parsing)
     - [Log Anomaly Detection](#log-anomaly-detection)
     - [Log Failure Diagnosis](#log-failure-diagnosis)
@@ -16,6 +17,7 @@
     - [Performance on Inference Time and Average Token](#performance-on-inference-time-and-average-token)
     - [Performance on Different parameters](#performance-on-different-parameters)
     - [Performance on Different Languages](#performance-on-different-languages)
+-->
 
 ## Introduction
 
@@ -202,6 +204,13 @@ To measure LLMs’ capabilities in log analysis better, LogEval adopts some meth
 
 ## Benchmark Results
 
+The Accuracy in zero-shot Naive Q&A:
+<img src="figures/The Accuracy in zero-shot Naive Q&A.png">
+
+The Accuracy in few-shot Naive Q&A:
+<img src="figures/The Accuracy in few-shot Naive Q&A.png">
+
+<!---
 ### Log Parsing
 Log Parsing Zero shot/few shot Chinese Naive Q&A Accuracy
 <img src="./figures/3.png">
@@ -265,3 +274,4 @@ The Accuracy of LLaMa2 and Qwen1.5 in zero-shot English Naive Q&A
 ### Performance on Different Languages
 The performance of LLMs on failure diagnosis tasks under the "zero-shot" naive Q&A in both Chinese and English test sets
 <img src="./figures/29.png">
+-->
