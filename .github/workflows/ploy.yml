@@ -27,7 +27,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        ls ~
+        tree ~
         pip install -r ~/requirements.txt
 
     - name: renew
