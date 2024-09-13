@@ -16,10 +16,9 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
     - name: Set up Python version
-      uses: actions/setup-python@v3.0.0
+      uses: actions/setup-python@v5.2.0
       with:
         python-version: ${{ env.PYTHON_VERSION }}
-        cache: 'pip'
 
     - name: Create and start virtual environment
       run: |
