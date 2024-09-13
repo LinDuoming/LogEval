@@ -1,0 +1,23 @@
+{% extends "non-home.html" %}
+{% block mainContent %}
+<div id="news-list" style="border: 1px solid darkgray; margin-left: 1.2em; margin-right: 1.2em; padding: .5em 0;">
+{% for item in news %}
+    <a href="{{ item['link'] }}" style="text-decoration: none; color: inherit;">
+        <div style="height: 3.8em;">
+            <span class="fa-stack fa-lg fa-pull-left" style="color: #68174B; padding: .6em;">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+            </span>
+            <div style="font-size: 50%; padding: 1em 2em; text-align: right; white-space: nowrap; float: right;">
+                <div>{{ item['time'].strftime('%Y-%m-%d %H:%M') }}</div>
+            </div>
+            <div style="padding: .75em 8em .5em 4em">
+                <div style="color: #68174B;">{{ item['title'] }}</div>
+                <div style="font-size: 50%;">{{ item['scription'] }}</div>
+            </div>
+        </div>
+    </a>
+    <hr style="margin-left: 4em;">
+{% endfor %}
+</div>
+{% endblock %}

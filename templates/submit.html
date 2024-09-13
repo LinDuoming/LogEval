@@ -1,0 +1,62 @@
+{% extends "non-home.html" %}
+{% block mainContent %}
+<div class="home-subtitle">{{ _('欢迎！') }}</div>
+<p> {{ _('我们非常欢迎其他垂直领域的单位提供更多的评测题目，我们会统一评估，并定期更新到LogEval网站上。您可在下述表单中提交您的邮箱，机构以及垂直数据集的名称，我们会与您联系。如果您有模型，想查看在LogEval数据集上评测结果，也请提交您的邮件和机构以及模型名，我们会与您联系。') }} </p>
+<script>
+    "use strict";
+    function blurInput(th) {
+        th.value = th.value.trim();
+        th.nextElementSibling.style.display = th.value?"none":null;
+    }
+    function focusInput(th) {
+        th.nextElementSibling.style.display = "none";
+    }
+    function submitInput(th) {
+        let xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+            alert("{{ _('提交成功') }}");
+            th.reset();
+        }
+        xhttp.open("POST", "submitting", true);
+        xhttp.setRequestHeader("Content-Type", "application/json");
+        xhttp.send(JSON.stringify(
+            {
+                email: th['email'].value,
+                org: th['org'].value,
+                dataset_model: th['dataset_model'].value
+            }
+        ));
+    }
+</script>
+<form id="submit-form" onsubmit="submitInput(this)">
+    <table style="margin: auto;">
+        <tr>
+            <td> {{ _('邮箱：') }} </td>
+            <td>
+                <input type="email" name="email" onblur="blurInput(this)" onfocus="focusInput(this)" required="true">
+                <p> {{_('您的邮箱')}}* </p>
+            </td>
+        </tr>
+        <tr>
+            <td> {{ _('机构：') }} </td>
+            <td>
+                <input type="text" name="org" onblur="blurInput(this)" onfocus="focusInput(this)">
+                <p> {{_('您的机构')}} </p>
+            </td>
+        </tr>
+        <tr>
+            <td> {{ _('数据集名 或 模型名：') }} </td>
+            <td>
+                <input type="text" name="dataset_model" onblur="blurInput(this)" onfocus="focusInput(this)" required="true">
+                <p> {{_('数据集名 或 模型名')}}* </p>
+            </td>
+        </tr>
+    </table>
+    <div style="display: flex; margin-top: 1em; justify-content: center;">
+        <input type="submit" id="this-submit" value="{{_(' 提交')}}"
+               onclick="document.getElementById('submit-form').submit()">
+        <input type="reset" id="this-reset" value="{{_('重置')}}"
+               onclick="document.getElementById('submit-form').reset()">
+    </div>
+</form>
+{% endblock %}

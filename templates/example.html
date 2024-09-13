@@ -1,0 +1,97 @@
+{% extends "non-home.html" %}
+{% block mainContent %}
+<div style="font-size: 2em; font-weight: bold; text-align: center; padding: .5em;"> {{ _('题目样例').title() }} </div>
+<table border="1" cellspacing="0">
+    <tr>
+        <th> {{ _('Zeroshot') }} </th>
+        <td> <div style="display: flex">
+            <table border="1" cellspacing="0" style="margin: 5px">
+                <tr style="background-color: aliceblue;"><td>
+                    <b>"id":</b> 0,
+                </td></tr>
+                <tr><td>
+                    <b>"instruction":</b> "Please review the log entry and explicitly mark it as ‘normal’ or ‘abnormal’, only output ‘normal’ or ‘abnormal’"
+                </td></tr>
+                <tr style="background-color: antiquewhite;"><td>
+                    <b>"input":</b> "\nlog entry:\\ninstruction cache parity error corrected"
+                </td></tr>
+                <tr><td>
+                    <b>"output":</b> "normal"
+                </td></tr>
+            </table>
+            <table border="1" cellspacing="0" style="margin: 5px">
+                <tr style="background-color: aliceblue;"><td>
+                    <b>"id":</b> 0,
+                </td></tr>
+                <tr><td>
+                    <b>"instruction":</b> "Parse the following log entry into a template format, replacing variable parts with a wildcard <*>, and focus the answer after the keyword ‘Answer’"
+                </td></tr>
+                <tr style="background-color: antiquewhite;"><td>
+                    <b>"input":</b> "\nlog entry:\\nsynchronized to 10.100.28.250, stratum 3"
+                </td></tr>
+                <tr><td>
+                    <b>"output":</b> "synchronized to <*>, stratum <*>"
+                </td></tr>
+            </table>
+            <table border="1" cellspacing="0" style="margin: 5px">
+                <tr style="background-color: aliceblue;"><td>
+                    <b>"id":</b> 0,
+                </td></tr>
+                <tr><td>
+                    <b>"instruction":</b>  "In our data scenario, there are three types of faults: Processor CPU Caterr, Memory Throttled Uncorrectable Error Correcting Code, Hard Disk Drive Control Error Computer System Bus Short Circuit Programmable Gate Array Device Unknown. Analyze the log entry and identify the type of fault that occurred. Only output the fault type."
+                </td></tr>
+                <tr style="background-color: antiquewhite;"><td>
+                    <b>"input":</b> "\nlog entry:\nProcessor #0xfa | Configuration Error | Asserted"
+                </td></tr>
+                <tr><td>
+                    <b>"output":</b> "Processor CPU Caterr"
+                </td></tr>
+            </table>
+        </div> </td>
+    </tr>
+    <tr>
+        <th> {{ _('Fewshot') }} </th>
+        <td> <div style="display: flex">
+            <table border="1" cellspacing="0" style="margin: 5px">
+                <tr style="background-color: aliceblue;"><td>
+                    <b>"id":</b> 0,
+                </td></tr>
+                <tr><td>
+                    <b>"instruction":</b> "In our data scenario, there are three types of faults {Processor CPU Caterr, Memory Throttled Uncorrectable Error Correcting Code, Hard Disk Drive Control Error Computer System Bus Short Circuit Programmable Gate Array Device Unknown}. Analyze the log entry and identify the type of fault that occurred. Only output the fault type.\nFor Example:\nlog entry:\nTemperature CPU0_Margin_Temp | Lower Critical going low | Asserted | Reading -16 &1t; Threshold 0 degrees C\nanswer:’Processor CPU Caterr’; \nlog entry:\nMemoryCPU1E0_DIMM_Stat | Correctable ECC | Asserted\nanswer:’Memory Throttled Uncorrectable Error Correcting Code’;\nlog entry:\nSystem Boot Initiated BlOS_Boot_Up | Initiated by power up | Asserted\nanswer:’Hard Disk Drive Control Error Computer System Bus Short Circuit Programmable Gate Array Device Unknown’"
+                </td></tr>
+                <tr style="background-color: antiquewhite;"><td>
+                    <b>"input":</b> "\nlog entry:\nProcessor #Oxfa | Configuration Error | Asserted"
+                </td></tr>
+                <tr><td>
+                    <b>"output":</b> "Processor CPU Caterr"
+                </td></tr>
+            </table>
+            <table border="1" cellspacing="0" style="margin: 5px">
+                <tr style="background-color: aliceblue;"><td>
+                    <b>"id":</b> 0,
+                </td></tr>
+                <tr><td>
+                    <b>"instruction":</b> "Parse the following log entry into a
+template format, replacing variable parts with a wildcard <*>,and focus the answer after the keyword ’Answer’\nFor example:\nlog entry:\nno floppy controllers
+found,\nanswer:’no floppy controllers found’;\nlog
+entry:\n13 tree receiver 1 in re-synch state event(s)
+(dcr 0x0185) detected over 4562 seconds,\nanswer:’<*>
+tree receiver <*> in re-synch state event(s) (dcr <*>)
+detected over <*> seconds’;\niog entry:\n... autorun
+DONE.,\nanswer:’... autorun DONE.’; \nlog entry:\n2 L3
+EDRAM error(s) (dcr 0x0157) detected and corrected
+over 282 seconds, \nanswer:’<*> L3 EDRAM error(s) (dcr
+<*>) detected and corrected over <*> seconds’; \nlog entry:\nprobe of vesafb0 failed with error -6,\nanswer:’probe
+of vesafb0 failed with error <*>’."
+                </td></tr>
+                <tr style="background-color: antiquewhite;"><td>
+                    <b>"input":</b> "\nlog entry:\ninstruction cache parity error corrected"
+                </td></tr>
+                <tr><td>
+                    <b>"output":</b> "instruction cache parity error corrected"
+                </td></tr>
+            </table>
+        </div> </td>
+    </tr>
+</table>
+{% endblock %}

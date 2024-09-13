@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LogEval</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<header style="position:fixed;top:0px;left:0px;right:0px;background-color:#68174B;color:#B38BA5;white-space:nowrap;overflow:auto;line-height:3em;opacity:0.9;">
+		<div style="font-family:Comic Sans MS, cursive, sans-serif;font-size: 2em;padding-left:1em;display: inline;">LogEval</div>
+		<a class="button-header" href="{{ url_for('home') }}">
+			<i class="fa fa-home"></i> {{_('主页')}}
+        </a>
+		<a class="button-header" href="{{ url_for('news') }}">
+            <i class="fa fa-newspaper-o"></i> {{_('新闻')}}
+        </a>
+		<a class="button-header" href="https://arxiv.org/abs/2407.01896">
+            <i class="fa fa-file-text"></i> {{_('论文')}}
+        </a>
+		<a class="button-header" href="{{ url_for('static', filename='dataset.zip') }}" download>
+            <i class="fa fa-server"></i> {{_('数据集')}}
+        </a>
+		<a class="button-header" href="{{ url_for('leaderboard') }}">
+            <i class="fa fa-bar-chart"></i> {{_(' 排行榜')}}
+        </a>
+		<a class="button-header" href="{{ url_for('example') }}">
+			<i class="fa fa-indent"></i> {{_('题目样例')}}
+        </a>
+		<a class="button-header" href="{{ url_for('submit') }}">
+            <i class="fa fa-edit"></i> {{_('结果提交')}}
+        </a>
+		<a class="button-header" href="{{ url_for('home')+'#contactor' }}">
+            <i class="fa fa-envelope"></i> {{_(' 联系我们')}}
+        </a>
+		<a class="button-header" href="{{ url_for('lang_change') }}">
+            <i class="fa fa-language"></i> {{_('ENGLISH')}}
+        </a>
+		<a class="button-header">
+			<i class="fa fa-user-circle"></i> {{_('注册')}}
+        </a>
+		<a class="button-header">
+            <i class="fa fa-user"></i> {{_('登录')}}
+        </a>
+	</header>
+	<main style="left:0px;right:0px;">{% block content %}{% endblock %}</main>
+    <div style="height: 3em;"> </div>
+    <footer style="position:fixed;bottom:0px;left:0px;right:0px;text-align:center;background-color:#68174B;color:#B38BA5;opacity:0.9;">
+		{{_('Copyright')}}
+	</footer>
+</body>
+</html>

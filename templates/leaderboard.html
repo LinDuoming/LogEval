@@ -1,0 +1,160 @@
+{% extends "non-home.html" %}
+{% block mainContent %}
+<div style="margin: 0 3em;">
+    <div style="font-size: 2em; font-weight: bold; text-align: center; padding: .5em;"> {{ _('LogEval排行榜') }} </div>
+    <div class="leaderboard-subtitle"> {{ _('关于LogEval') }} </div>
+    <p>{{ _('LogEval是一个全面的基准测试套件，用于评估大型语言模型在日志解析、异常检测、故障诊断和日志总结方面的能力。LogEval使用公开的4,000日志数据条目和每个任务的15个不同提示，以严格评估多个主流大型语言模型。我们将演示大型语言模型在自我一致性和少镜头学习中的表现，并讨论与模型量化相关的研究结果，问答评价，提示工程。LogEval的评估结果揭示了大型语言模型在日志分析任务的优势和局限性，为研究人员选择此类任务的模型提供有价值的参考。我们将不断更新模型评估，以促进进一步的研究和开发。') }}</p>
+    <div class="leaderboard-subtitle">{{ _('引用') }}</div>
+    <pre class="bibtex">
+        @misc{cui2024logevalcomprehensivebenchmarksuite,
+            title={LogEval: A Comprehensive Benchmark Suite for Large Language Models In Log Analysis},
+            author={Tianyu Cui and Shiyu Ma and Ziang Chen and Tong Xiao and Shimin Tao and Yilun Liu and Shenglin Zhang and Duoming Lin and Changchang Liu and Yuzhe Cai and Weibin Meng and Yongqian Sun and Dan Pei},
+            year={2024},
+            eprint={2407.01896},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL},
+            url={https://arxiv.org/abs/2407.01896},
+        }
+    </pre>
+    <div class="leaderboard-subtitle"> {{ _('排行榜') }} </div>
+    <p> {{ _('更新时间') }} : <span id="statistic_updatetime"></span> </p>
+    <div>
+        <div class="leaderboard_btn_bar" id="tasks">
+            <button id="parsing_btn"> {{ _('日志解析') }} </button>
+            <button id="abnormal_btn"> {{ _('日志异常检测') }} </button>
+            <button id="summary_btn"> {{ _('日志摘要提取') }} </button>
+            <button id="diagnose_btn"> {{ _('日志故障诊断') }} </button>
+        </div>
+        <div class="leaderboard_btn_bar" id="sides">
+            <button id="nativeQA_btn"> {{ _('原始问答') }} </button>
+            <button id="scQA_btn"> {{ _('自我一致性问答') }} </button>
+        </div>
+        <div class="leaderboard_btn_bar" id="instrs">
+            <button id="zeroshot_btn"> {{ _('Zeroshot') }} </button>
+            <button id="fewshot_btn"> {{ _('Fewshot') }} </button>
+        </div>
+    </div>
+    <script>
+        "use strict";
+        function change_order(s, id) {
+            let xhttp = new XMLHttpRequest();
+            xhttp.onload = function() { refresh(); }
+            xhttp.open("POST", "chg_order", true);
+            xhttp.setRequestHeader("Content-Type", "application/json");
+            xhttp.send(JSON.stringify(s));
+            for (let i=0; i<17; i++) document.getElementById("col-"+i).style.backgroundColor = "inherit";
+            document.getElementById(id).style.backgroundColor = "lightblue";
+        }
+    </script>
+    <div id="leaderboard_brd">
+        <table border="1" cellspacing="0">
+            <thead id="h_edit-dis">
+                <tr>
+                    <th rowspan="2" onclick="change_order('model', 'col-0')" id="col-0"> {{ _('模型') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th colspan="2"> {{ _('中文') }} </th>
+                    <th colspan="2"> {{ _('英文') }} </th>
+                </tr>
+                <tr>
+                    <th onclick="change_order('Chinese accuracy', 'col-1')" id="col-1"> {{ _('正确率') }} <i class="fa fa-caret-down fa-pull-right"></i>  </th>
+                    <th onclick="change_order('Chinese edit-dis', 'col-2')" id="col-2"> {{ _('编辑距离') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English accuracy', 'col-3')" id="col-3"> {{ _('正确率') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English edit-dis', 'col-4')" id="col-4"> {{ _('编辑距离') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                </tr>
+            </thead>
+            <thead id="h_f1-score">
+                <tr>
+                    <th rowspan="2" onclick="change_order('model', 'col-5')" id="col-5"> {{ _('模型') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th colspan="2"> {{ _('中文') }} </th>
+                    <th colspan="2"> {{ _('英文') }} </th>
+                </tr>
+                <tr>
+                    <th onclick="change_order('Chinese accuracy', 'col-6')" id="col-6"> {{ _('正确率') }} <i class="fa fa-caret-down fa-pull-right"></i>  </th>
+                    <th onclick="change_order('Chinese non-accuracy', 'col-7')" id="col-7"> {{ _('F1评分') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English accuracy', 'col-8')" id="col-8"> {{ _('正确率') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English non-accuracy', 'col-9')" id="col-9"> {{ _('F1评分') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                </tr>
+            </thead>
+            <thead id="h_f1-var">
+                <tr>
+                    <th rowspan="2" onclick="change_order('model', 'col-10')" id="col-10"> {{ _('模型') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th colspan="3"> {{ _('中文') }} </th>
+                    <th colspan="3"> {{ _('英文') }} </th>
+                </tr>
+                <tr>
+                    <th onclick="change_order('Chinese accuracy', 'col-11')" id="col-11"> {{ _('正确率') }} <i class="fa fa-caret-down fa-pull-right"></i>  </th>
+                    <th onclick="change_order('Chinese f1-score', 'col-12')" id="col-12"> {{ _('F1评分') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('Chinese f1-var', 'col-13')" id="col-13"> {{ _('F1评分方差') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English accuracy', 'col-14')" id="col-14"> {{ _('正确率') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English f1-score', 'col-15')" id="col-15"> {{ _('F1评分') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                    <th onclick="change_order('English f1-var', 'col-16')" id="col-16"> {{ _('F1评分方差') }} <i class="fa fa-caret-down fa-pull-right"></i> </th>
+                </tr>
+            </thead>
+            <tbody style="text-align: right;"></tbody>
+        </table>
+    </div>
+
+    <script>
+        "use strict";
+        function setStatus(field, new_val) {
+            let btn_this = new_val+"_btn";
+            for (let i of document.getElementById(field+"s").children){
+                if (i.id == btn_this) {
+                    i.style.color = "black";
+                    i.style.fontWeight = "bold";
+                } else {
+                    i.style.color = "gray";
+                    i.style.fontWeight = "normal";
+                }
+            }
+            status[field] = new_val;
+        }
+        function refresh() {
+            let xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                let rec = JSON.parse(this.responseText);
+                document.getElementById("statistic_updatetime").innerHTML = rec.updatetime;
+                document.querySelectorAll("#leaderboard_brd tbody")[0].innerHTML = rec.leaderboard;
+            }
+            xhttp.open("POST", "statistics", true);
+            xhttp.setRequestHeader("Content-Type", "application/json");
+            xhttp.send(JSON.stringify(status));
+            for (let i of ["edit-dis", "f1-score", "f1-var"]) document.getElementById("h_"+i).style.display = "none";
+            if (status.task == "parsing") document.getElementById("h_edit-dis").style.display = null;
+            else if (status.side == "nativeQA") document.getElementById("h_f1-score").style.display = null;
+            else document.getElementById("h_f1-var").style.display = null;
+        }
+        const taskList = ["parsing", "abnormal", "summary", "diagnose"]
+        const sideList = ["nativeQA", "scQA"]
+        const instrList = ["zeroshot", "fewshot"]
+        let status = {task: null, side: null, instr: null}
+
+        setStatus('task', taskList[0]);
+        document.getElementById("scQA_btn").style.display = "none";
+        for (let t of taskList) {
+            if (t == "parsing" || t == "summary") {
+                document.getElementById(t+"_btn").addEventListener("click", function(){
+                    setStatus('side', "nativeQA");
+                    document.getElementById("scQA_btn").style.display = "none";
+                });
+            } else {
+                document.getElementById(t+"_btn").addEventListener("click", function(){
+                    document.getElementById("scQA_btn").style.display = null;
+                });
+            }
+            document.getElementById(t+"_btn").addEventListener("click", function(){ setStatus('task', t); refresh(); });
+        }
+
+        setStatus('side', sideList[0]);
+        for (let t of sideList) {
+            document.getElementById(t+"_btn").addEventListener("click", function(){ setStatus('side', t); refresh(); });
+        }
+
+        setStatus('instr', instrList[0]);
+        for (let t of instrList) {
+            document.getElementById(t+"_btn").addEventListener("click", function(){ setStatus('instr', t); refresh(); });
+        }
+
+        refresh();
+    </script>
+</div>
+{% endblock %}
