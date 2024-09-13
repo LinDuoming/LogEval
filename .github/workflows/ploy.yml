@@ -27,8 +27,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        ls
-        pwd
+        ls ..
+        ls ../..
         pip install -r requirements.txt
 
     - name: renew
