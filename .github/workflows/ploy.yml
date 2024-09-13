@@ -1,0 +1,37 @@
+name: Deploy
+
+env:
+  PYTHON_VERSION: '3.7'
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Renew now"
+        required: false
+        type: boolean
+
+jobs:
+  rebuild:
+    runs-on:  ubuntu-latest
+    steps:
+      - name: Set up Python version
+      - uses: actions/setup-python@v3.0.0
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+
+      - name: Create and start virtual environment
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: renew
+        run: |
+          pybabel extract -F babel.cfg -o messages.pot .
+          pybabel update -i messages.pot -d translations
+          pybabel compile -d translations
+          flask run
