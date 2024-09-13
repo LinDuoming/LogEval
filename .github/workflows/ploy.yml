@@ -24,11 +24,11 @@ jobs:
       run: |
         python -m venv venv
         source venv/bin/activate
+      working-directory: ./
 
     - name: Install dependencies
-      run: |
-        tree ~
-        pip install -r ~/requirements.txt
+      run: pip install -r ~/requirements.txt
+      working-directory: ./
 
     - name: renew
       run: |
@@ -36,3 +36,4 @@ jobs:
         pybabel update -i messages.pot -d translations
         pybabel compile -d translations
         flask run
+      working-directory: ./
