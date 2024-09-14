@@ -32,6 +32,8 @@ jobs:
       run: pip install -r requirements.txt
       working-directory: ./
 
+    - name: Deploy GitHub Pages site
+      uses: actions/deploy-pages@v4.0.5
     - name: renew
       run: |
         pybabel extract -F babel.cfg -o messages.pot .
