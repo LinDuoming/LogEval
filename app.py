@@ -12,7 +12,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 import datasrc
 
 language = 'zh_CN'
-app = Flask(__name__)
+app = Flask(__name__,template_folder='LogEval/templates',static_folder='LogEval/static')
 app.wsgi_app = ProxyFix(app.wsgi_app)
 babel = Babel(app=app)
 babel.init_app(app, locale_selector=lambda: language)
