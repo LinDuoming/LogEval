@@ -17,6 +17,8 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 babel = Babel(app=app)
 babel.init_app(app, locale_selector=lambda: language)
 
+old_route = app.route
+app.route = lambda r,*args,**kw: old_route(f'/LogEval/{r}', *args, **kw)
 
 @app.route("/")
 @app.route("/home")
