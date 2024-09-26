@@ -30,6 +30,9 @@ def home():
 def news():
     return render_template("news.html", news=datasrc.get_news())
 
+@app.route("/dataset_download")
+def dataset_download():
+    return send_file("static/dataset.zip")
 
 @app.route("/submit")
 def submit():
