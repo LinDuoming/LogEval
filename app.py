@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 import numpy as np
 
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, send_file
 from flask_babel import Babel, gettext as _, refresh
 
 from werkzeug.middleware.proxy_fix import ProxyFix
