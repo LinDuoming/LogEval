@@ -1,7 +1,7 @@
 # English translations for PROJECT.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <1052148783@qq.com>, 2024.
 #
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: templates/base.html:13
 msgid "主页"
@@ -68,9 +68,7 @@ msgstr ""
 
 #: templates/home.html:5
 msgid "大规模语言模型日志分析能力综合基准测试套件"
-msgstr ""
-"A Large Language Models Log Analysis Capability Comprehensive "
-"Benchmarking Suite"
+msgstr "A Comprehensive Benchmark Suite for LLMs in Log Analysis"
 
 #: templates/home.html:8 templates/leaderboard.html:5
 msgid "关于LogEval"
@@ -146,7 +144,7 @@ msgstr "Log Anomaly Detection"
 
 #: templates/leaderboard.html:15
 msgid "日志摘要提取"
-msgstr "Log Summary"
+msgstr "Log Summary Extraction"
 
 #: templates/leaderboard.html:16
 msgid "日志故障诊断"
@@ -176,7 +174,7 @@ msgstr "Model"
 #: templates/leaderboard.html:44 templates/leaderboard.html:57
 #: templates/leaderboard.html:70
 msgid "中文"
-msgstr "Chinses"
+msgstr "Chinese"
 
 #: templates/leaderboard.html:45 templates/leaderboard.html:58
 #: templates/leaderboard.html:71
@@ -187,7 +185,7 @@ msgstr "English"
 #: templates/leaderboard.html:61 templates/leaderboard.html:63
 #: templates/leaderboard.html:74 templates/leaderboard.html:77
 msgid "正确率"
-msgstr "Accuracy"
+msgstr "Accuracy Rate"
 
 #: templates/leaderboard.html:49 templates/leaderboard.html:51
 msgid "编辑距离"
@@ -209,14 +207,15 @@ msgstr "Welcome!"
 #: templates/submit.html:4
 msgid "我们非常欢迎其他垂直领域的单位提供更多的评测题目，我们会统一评估，并定期更新到LogEval网站上。您可在下述表单中提交您的邮箱，机构以及垂直数据集的名称，我们会与您联系。如果您有模型，想查看在LogEval数据集上评测结果，也请提交您的邮件和机构以及模型名，我们会与您联系。"
 msgstr ""
-"We welcome more test questions from other vertical areas, and we will "
-"review them consistently and update them regularly on LogEval. You can "
-"submit the names of your mailboxes, institutions, and vertical data sets "
-"in the form below, and we will contact you."
+"We warmly welcome contributions of evaluation questions from other "
+"vertical domains. After uniformly assessment, we will regularly update "
+"them on the LogEval website. Please submit your email, organization, and "
+"the name of your vertical dataset or model in the form below, and we will"
+" contact you."
 
 #: templates/submit.html:17
 msgid "提交成功"
-msgstr "Submit successfully"
+msgstr "Submission successful"
 
 #: templates/submit.html:34
 msgid "邮箱："

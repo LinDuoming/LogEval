@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
 import json
 import datetime
 
@@ -12,7 +15,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 import datasrc
 
 language = 'en'
-app = Flask(__name__,static_folder='LogEval/static',static_url_path='/LogEval/static')
+app = Flask(__name__,static_folder=os.path.join(os.path.dirname(__file__), 'static'),static_url_path='/LogEval/static')
 app.wsgi_app = ProxyFix(app.wsgi_app)
 babel = Babel(app=app)
 babel.init_app(app, locale_selector=lambda: language)

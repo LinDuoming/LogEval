@@ -1,3 +1,6 @@
+import sys
+import os
+os.chdir(os.path.dirname(__file__))
 import datetime
 
 import pandas as pd

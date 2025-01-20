@@ -1,1009 +1,1009 @@
 task,side,instr,lang,measure,model,value
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7b,0.064
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14b,0.088
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72b,0.339
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7b,0.043
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13b,0.064
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70b,0.063
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7b,0.064
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14b,0.108
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7b,0.094
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20b,0.198
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7b,0.048
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7B,0.064
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14B,0.088
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72B,0.339
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7B,0.043
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13B,0.064
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70B,0.063
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7B,0.064
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14B,0.108
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7B,0.094
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20B,0.198
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7B,0.048
 Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,GPT-3.5,0.244
 Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,GPT-4,0.678
 Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Gemini Pro,0.235
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7b,0.101
-Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13b,0.001
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7B,0.101
+Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13B,0.001
 Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,GhatGLM4,0.271
 Log Parsing,naive Q&A,zero-shot,Chinese,accuracy,Claude3 Sonnet,0.484
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Qwen1.5-7b,45.47
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Qwen1.5-14b,40.69
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Qwen1.5-72b,16.37
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,LLaMa2-7b,48.27
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,LLaMa2-13b,44.87
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,LLaMa2-70b,45.19
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,DeVops-7b,46.11
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,DeVops-14b,37.29
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,InternLM2-7b,41.87
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,InternLM2-20b,28.51
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,AquilaChat-7b,47.99
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Qwen1.5-7B,45.47
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Qwen1.5-14B,40.69
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Qwen1.5-72B,16.37
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,LLaMa2-7B,48.27
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,LLaMa2-13B,44.87
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,LLaMa2-70B,45.19
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,DeVops-7B,46.11
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,DeVops-14B,37.29
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,InternLM2-7B,41.87
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,InternLM2-20B,28.51
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,AquilaChat-7B,47.99
 Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,GPT-3.5,22.97
 Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,GPT-4,7.73
 Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Gemini Pro,23.11
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Mistral-7b,44.71
-Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,BaiChuan2-13b,49.97
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Mistral-7B,44.71
+Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,BaiChuan2-13B,49.97
 Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,GhatGLM4,19.47
 Log Parsing,naive Q&A,zero-shot,Chinese,edit distance,Claude3 Sonnet,11.69
-Log Parsing,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7b,0.053
-Log Parsing,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14b,0.078
-Log Parsing,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72b,0.176
-Log Parsing,naive Q&A,zero-shot,English,accuracy,LLaMa2-7b,0.053
-Log Parsing,naive Q&A,zero-shot,English,accuracy,LLaMa2-13b,0.080 
-Log Parsing,naive Q&A,zero-shot,English,accuracy,LLaMa2-70b,0.082
-Log Parsing,naive Q&A,zero-shot,English,accuracy,DeVops-7b,0.091
-Log Parsing,naive Q&A,zero-shot,English,accuracy,DeVops-14b,0.223
-Log Parsing,naive Q&A,zero-shot,English,accuracy,InternLM2-7b,0.187
-Log Parsing,naive Q&A,zero-shot,English,accuracy,InternLM2-20b,0.211
-Log Parsing,naive Q&A,zero-shot,English,accuracy,AquilaChat-7b,0.026
+Log Parsing,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7B,0.053
+Log Parsing,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14B,0.078
+Log Parsing,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72B,0.176
+Log Parsing,naive Q&A,zero-shot,English,accuracy,LLaMa2-7B,0.053
+Log Parsing,naive Q&A,zero-shot,English,accuracy,LLaMa2-13B,0.080 
+Log Parsing,naive Q&A,zero-shot,English,accuracy,LLaMa2-70B,0.082
+Log Parsing,naive Q&A,zero-shot,English,accuracy,DeVops-7B,0.091
+Log Parsing,naive Q&A,zero-shot,English,accuracy,DeVops-14B,0.223
+Log Parsing,naive Q&A,zero-shot,English,accuracy,InternLM2-7B,0.187
+Log Parsing,naive Q&A,zero-shot,English,accuracy,InternLM2-20B,0.211
+Log Parsing,naive Q&A,zero-shot,English,accuracy,AquilaChat-7B,0.026
 Log Parsing,naive Q&A,zero-shot,English,accuracy,GPT-3.5,0.223
 Log Parsing,naive Q&A,zero-shot,English,accuracy,GPT-4,0.476
 Log Parsing,naive Q&A,zero-shot,English,accuracy,Gemini Pro,0.284
-Log Parsing,naive Q&A,zero-shot,English,accuracy,Mistral-7b,0.146
-Log Parsing,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13b,0.001
+Log Parsing,naive Q&A,zero-shot,English,accuracy,Mistral-7B,0.146
+Log Parsing,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13B,0.001
 Log Parsing,naive Q&A,zero-shot,English,accuracy,GhatGLM4,0.180 
 Log Parsing,naive Q&A,zero-shot,English,accuracy,Claude3 Sonnet,0.381
-Log Parsing,naive Q&A,zero-shot,English,edit distance,Qwen1.5-7b,47.71
-Log Parsing,naive Q&A,zero-shot,English,edit distance,Qwen1.5-14b,43.89
-Log Parsing,naive Q&A,zero-shot,English,edit distance,Qwen1.5-72b,23.91
-Log Parsing,naive Q&A,zero-shot,English,edit distance,LLaMa2-7b,47.53
-Log Parsing,naive Q&A,zero-shot,English,edit distance,LLaMa2-13b,41.57
-Log Parsing,naive Q&A,zero-shot,English,edit distance,LLaMa2-70b,42.43
-Log Parsing,naive Q&A,zero-shot,English,edit distance,DeVops-7b,44.91
-Log Parsing,naive Q&A,zero-shot,English,edit distance,DeVops-14b,32.99
-Log Parsing,naive Q&A,zero-shot,English,edit distance,InternLM2-7b,38.23
-Log Parsing,naive Q&A,zero-shot,English,edit distance,InternLM2-20b,30.19
-Log Parsing,naive Q&A,zero-shot,English,edit distance,AquilaChat-7b,49.77
+Log Parsing,naive Q&A,zero-shot,English,edit distance,Qwen1.5-7B,47.71
+Log Parsing,naive Q&A,zero-shot,English,edit distance,Qwen1.5-14B,43.89
+Log Parsing,naive Q&A,zero-shot,English,edit distance,Qwen1.5-72B,23.91
+Log Parsing,naive Q&A,zero-shot,English,edit distance,LLaMa2-7B,47.53
+Log Parsing,naive Q&A,zero-shot,English,edit distance,LLaMa2-13B,41.57
+Log Parsing,naive Q&A,zero-shot,English,edit distance,LLaMa2-70B,42.43
+Log Parsing,naive Q&A,zero-shot,English,edit distance,DeVops-7B,44.91
+Log Parsing,naive Q&A,zero-shot,English,edit distance,DeVops-14B,32.99
+Log Parsing,naive Q&A,zero-shot,English,edit distance,InternLM2-7B,38.23
+Log Parsing,naive Q&A,zero-shot,English,edit distance,InternLM2-20B,30.19
+Log Parsing,naive Q&A,zero-shot,English,edit distance,AquilaChat-7B,49.77
 Log Parsing,naive Q&A,zero-shot,English,edit distance,GPT-3.5,24.43
 Log Parsing,naive Q&A,zero-shot,English,edit distance,GPT-4,11.29
 Log Parsing,naive Q&A,zero-shot,English,edit distance,Gemini Pro,19.31
-Log Parsing,naive Q&A,zero-shot,English,edit distance,Mistral-7b,40.23
-Log Parsing,naive Q&A,zero-shot,English,edit distance,BaiChuan2-13b,49.83
+Log Parsing,naive Q&A,zero-shot,English,edit distance,Mistral-7B,40.23
+Log Parsing,naive Q&A,zero-shot,English,edit distance,BaiChuan2-13B,49.83
 Log Parsing,naive Q&A,zero-shot,English,edit distance,GhatGLM4,25.39
 Log Parsing,naive Q&A,zero-shot,English,edit distance,Claude3 Sonnet,15.47
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7b,0.229
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14b,0.426
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72b,0.709
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7b,0.062
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13b,0.005
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70b,0.102
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,DeVops-7b,0.064
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,DeVops-14b,0.186
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7b,0.271
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20b,0.645
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7b,0.037
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7B,0.229
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14B,0.426
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72B,0.709
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7B,0.062
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13B,0.005
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70B,0.102
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,DeVops-7B,0.064
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,DeVops-14B,0.186
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7B,0.271
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20B,0.645
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7B,0.037
 Log Parsing,naive Q&A,few-shot,Chinese,accuracy,GPT-3.5,0.262
 Log Parsing,naive Q&A,few-shot,Chinese,accuracy,GPT-4,0.903
 Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Gemini Pro,0.881
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Mistral-7b,0.127
-Log Parsing,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13b,0.000 
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Mistral-7B,0.127
+Log Parsing,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13B,0.000 
 Log Parsing,naive Q&A,few-shot,Chinese,accuracy,GhatGLM4,0.537
 Log Parsing,naive Q&A,few-shot,Chinese,accuracy,Claude3 Sonnet,0.871
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Qwen1.5-7b,31.29
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Qwen1.5-14b,18.51
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Qwen1.5-72b,9.89
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,LLaMa2-7b,46.17
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,LLaMa2-13b,49.33
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,LLaMa2-70b,43.23
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,DeVops-7b,45.25
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,DeVops-14b,30.89
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,InternLM2-7b,25.93
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,InternLM2-20b,8.59
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,AquilaChat-7b,48.67
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Qwen1.5-7B,31.29
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Qwen1.5-14B,18.51
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Qwen1.5-72B,9.89
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,LLaMa2-7B,46.17
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,LLaMa2-13B,49.33
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,LLaMa2-70B,43.23
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,DeVops-7B,45.25
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,DeVops-14B,30.89
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,InternLM2-7B,25.93
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,InternLM2-20B,8.59
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,AquilaChat-7B,48.67
 Log Parsing,naive Q&A,few-shot,Chinese,edit distance,GPT-3.5,20.87
 Log Parsing,naive Q&A,few-shot,Chinese,edit distance,GPT-4,2.69
 Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Gemini Pro,5.57
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Mistral-7b,42.59
-Log Parsing,naive Q&A,few-shot,Chinese,edit distance,BaiChuan2-13b,49.91
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Mistral-7B,42.59
+Log Parsing,naive Q&A,few-shot,Chinese,edit distance,BaiChuan2-13B,49.91
 Log Parsing,naive Q&A,few-shot,Chinese,edit distance,GhatGLM4,10.57
 Log Parsing,naive Q&A,few-shot,Chinese,edit distance,Claude3 Sonnet,2.53
-Log Parsing,naive Q&A,few-shot,English,accuracy,Qwen1.5-7b,0.311
-Log Parsing,naive Q&A,few-shot,English,accuracy,Qwen1.5-14b,0.431
-Log Parsing,naive Q&A,few-shot,English,accuracy,Qwen1.5-72b,0.533
-Log Parsing,naive Q&A,few-shot,English,accuracy,LLaMa2-7b,0.104
-Log Parsing,naive Q&A,few-shot,English,accuracy,LLaMa2-13b,0.040 
-Log Parsing,naive Q&A,few-shot,English,accuracy,LLaMa2-70b,0.064
-Log Parsing,naive Q&A,few-shot,English,accuracy,DeVops-7b,0.142
-Log Parsing,naive Q&A,few-shot,English,accuracy,DeVops-14b,0.151
-Log Parsing,naive Q&A,few-shot,English,accuracy,InternLM2-7b,0.340 
-Log Parsing,naive Q&A,few-shot,English,accuracy,InternLM2-20b,0.528
-Log Parsing,naive Q&A,few-shot,English,accuracy,AquilaChat-7b,0.035
+Log Parsing,naive Q&A,few-shot,English,accuracy,Qwen1.5-7B,0.311
+Log Parsing,naive Q&A,few-shot,English,accuracy,Qwen1.5-14B,0.431
+Log Parsing,naive Q&A,few-shot,English,accuracy,Qwen1.5-72B,0.533
+Log Parsing,naive Q&A,few-shot,English,accuracy,LLaMa2-7B,0.104
+Log Parsing,naive Q&A,few-shot,English,accuracy,LLaMa2-13B,0.040 
+Log Parsing,naive Q&A,few-shot,English,accuracy,LLaMa2-70B,0.064
+Log Parsing,naive Q&A,few-shot,English,accuracy,DeVops-7B,0.142
+Log Parsing,naive Q&A,few-shot,English,accuracy,DeVops-14B,0.151
+Log Parsing,naive Q&A,few-shot,English,accuracy,InternLM2-7B,0.340 
+Log Parsing,naive Q&A,few-shot,English,accuracy,InternLM2-20B,0.528
+Log Parsing,naive Q&A,few-shot,English,accuracy,AquilaChat-7B,0.035
 Log Parsing,naive Q&A,few-shot,English,accuracy,GPT-3.5,0.204
 Log Parsing,naive Q&A,few-shot,English,accuracy,GPT-4,0.873
 Log Parsing,naive Q&A,few-shot,English,accuracy,Gemini Pro,0.801
-Log Parsing,naive Q&A,few-shot,English,accuracy,Mistral-7b,0.153
-Log Parsing,naive Q&A,few-shot,English,accuracy,BaiChuan2-13b,0.001
+Log Parsing,naive Q&A,few-shot,English,accuracy,Mistral-7B,0.153
+Log Parsing,naive Q&A,few-shot,English,accuracy,BaiChuan2-13B,0.001
 Log Parsing,naive Q&A,few-shot,English,accuracy,GhatGLM4,0.601
 Log Parsing,naive Q&A,few-shot,English,accuracy,Claude3 Sonnet,0.867
-Log Parsing,naive Q&A,few-shot,English,edit distance,Qwen1.5-7b,27.59
-Log Parsing,naive Q&A,few-shot,English,edit distance,Qwen1.5-14b,18.73
-Log Parsing,naive Q&A,few-shot,English,edit distance,Qwen1.5-72b,10.89
-Log Parsing,naive Q&A,few-shot,English,edit distance,LLaMa2-7b,44.61
-Log Parsing,naive Q&A,few-shot,English,edit distance,LLaMa2-13b,47.11
-Log Parsing,naive Q&A,few-shot,English,edit distance,LLaMa2-70b,45.67
-Log Parsing,naive Q&A,few-shot,English,edit distance,DeVops-7b,38.73
-Log Parsing,naive Q&A,few-shot,English,edit distance,DeVops-14b,35.87
-Log Parsing,naive Q&A,few-shot,English,edit distance,InternLM2-7b,19.67
-Log Parsing,naive Q&A,few-shot,English,edit distance,InternLM2-20b,14.17
-Log Parsing,naive Q&A,few-shot,English,edit distance,AquilaChat-7b,48.49
+Log Parsing,naive Q&A,few-shot,English,edit distance,Qwen1.5-7B,27.59
+Log Parsing,naive Q&A,few-shot,English,edit distance,Qwen1.5-14B,18.73
+Log Parsing,naive Q&A,few-shot,English,edit distance,Qwen1.5-72B,10.89
+Log Parsing,naive Q&A,few-shot,English,edit distance,LLaMa2-7B,44.61
+Log Parsing,naive Q&A,few-shot,English,edit distance,LLaMa2-13B,47.11
+Log Parsing,naive Q&A,few-shot,English,edit distance,LLaMa2-70B,45.67
+Log Parsing,naive Q&A,few-shot,English,edit distance,DeVops-7B,38.73
+Log Parsing,naive Q&A,few-shot,English,edit distance,DeVops-14B,35.87
+Log Parsing,naive Q&A,few-shot,English,edit distance,InternLM2-7B,19.67
+Log Parsing,naive Q&A,few-shot,English,edit distance,InternLM2-20B,14.17
+Log Parsing,naive Q&A,few-shot,English,edit distance,AquilaChat-7B,48.49
 Log Parsing,naive Q&A,few-shot,English,edit distance,GPT-3.5,26.57
 Log Parsing,naive Q&A,few-shot,English,edit distance,GPT-4,3.29
 Log Parsing,naive Q&A,few-shot,English,edit distance,Gemini Pro,6.89
-Log Parsing,naive Q&A,few-shot,English,edit distance,Mistral-7b,39.49
-Log Parsing,naive Q&A,few-shot,English,edit distance,BaiChuan2-13b,49.79
+Log Parsing,naive Q&A,few-shot,English,edit distance,Mistral-7B,39.49
+Log Parsing,naive Q&A,few-shot,English,edit distance,BaiChuan2-13B,49.79
 Log Parsing,naive Q&A,few-shot,English,edit distance,GhatGLM4,8.61
 Log Parsing,naive Q&A,few-shot,English,edit distance,Claude3 Sonnet,1.97
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7b,0.536
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14b,0.35
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72b,0.334
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7b,0.19
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13b,0.416
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70b,0.562
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7b,0.1
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14b,0.175
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7b,0.392
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20b,0.368
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7b,0.195
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7B,0.536
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14B,0.35
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72B,0.334
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7B,0.19
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13B,0.416
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70B,0.562
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7B,0.1
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14B,0.175
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7B,0.392
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20B,0.368
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7B,0.195
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,GPT-3.5,0.243
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,GPT-4,0.331
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Gemini Pro,0.557
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7b,0.277
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13b,0.286
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7B,0.277
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13B,0.286
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,GhatGLM4,0.485
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,accuracy,Claude3 Sonnet,0.347
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7b,0.129
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14b,0.099
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72b,0.097
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-7b,0.006
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-13b,0.057
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-70b,0.036
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,DeVops-7b,0.04
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,DeVops-14b,0.047
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-7b,0.082
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-20b,0.088
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,AquilaChat-7b,0.066
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7B,0.129
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14B,0.099
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72B,0.097
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-7B,0.006
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-13B,0.057
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-70B,0.036
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,DeVops-7B,0.04
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,DeVops-14B,0.047
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-7B,0.082
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-20B,0.088
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,AquilaChat-7B,0.066
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,GPT-3.5,0.084
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,GPT-4,0.097
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Gemini Pro,0.139
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Mistral-7b,0.162
-Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13b,0.005
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Mistral-7B,0.162
+Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13B,0.005
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,GhatGLM4,0.121
 Log Anomaly Detection,naive Q&A,zero-shot,Chinese,F1-score,Claude3 Sonnet,0.099
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7b,0.505
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14b,0.195
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72b,0.239
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,LLaMa2-7b,0.943
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,LLaMa2-13b,0.659
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,LLaMa2-70b,0.693
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,DeVops-7b,0.21
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,DeVops-14b,0.259
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,InternLM2-7b,0.341
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,InternLM2-20b,0.334
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,AquilaChat-7b,0.6
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7B,0.505
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14B,0.195
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72B,0.239
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,LLaMa2-7B,0.943
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,LLaMa2-13B,0.659
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,LLaMa2-70B,0.693
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,DeVops-7B,0.21
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,DeVops-14B,0.259
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,InternLM2-7B,0.341
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,InternLM2-20B,0.334
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,AquilaChat-7B,0.6
 Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,GPT-3.5,0.285
 Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,GPT-4,0.333
 Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Gemini Pro,0.417
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Mistral-7b,0.631
-Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13b,0.256
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Mistral-7B,0.631
+Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13B,0.256
 Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,GhatGLM4,0.358
 Log Anomaly Detection,naive Q&A,zero-shot,English,accuracy,Claude3 Sonnet,0.354
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Qwen1.5-7b,0.114
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Qwen1.5-14b,0.038
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Qwen1.5-72b,0.063
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,LLaMa2-7b,0.095
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,LLaMa2-13b,0.122
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,LLaMa2-70b,0.044
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,DeVops-7b,0.037
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,DeVops-14b,0.055
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,InternLM2-7b,0.075
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,InternLM2-20b,0.089
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,AquilaChat-7b,0.042
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Qwen1.5-7B,0.114
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Qwen1.5-14B,0.038
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Qwen1.5-72B,0.063
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,LLaMa2-7B,0.095
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,LLaMa2-13B,0.122
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,LLaMa2-70B,0.044
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,DeVops-7B,0.037
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,DeVops-14B,0.055
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,InternLM2-7B,0.075
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,InternLM2-20B,0.089
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,AquilaChat-7B,0.042
 Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,GPT-3.5,0.082
 Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,GPT-4,0.097
 Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Gemini Pro,0.109
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Mistral-7b,0.092
-Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,BaiChuan2-13b,0
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Mistral-7B,0.092
+Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,BaiChuan2-13B,0
 Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,GhatGLM4,0.092
 Log Anomaly Detection,naive Q&A,zero-shot,English,F1-score,Claude3 Sonnet,0.1
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7b,0.004
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14b,0.11
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72b,0.33
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7b,0.001
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13b,0
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70b,0.006
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,DeVops-7b,0.145
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,DeVops-14b,0.237
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7b,0.311
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20b,0.342
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7b,0.263
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7B,0.004
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14B,0.11
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72B,0.33
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7B,0.001
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13B,0
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70B,0.006
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,DeVops-7B,0.145
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,DeVops-14B,0.237
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7B,0.311
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20B,0.342
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7B,0.263
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,GPT-3.5,0.371
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,GPT-4,0.564
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Gemini Pro,0.602
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Mistral-7b,0.706
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13b,0.277
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Mistral-7B,0.706
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13B,0.277
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,GhatGLM4,0.113
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,accuracy,Claude3 Sonnet,0.464
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-7b,0.078
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-14b,0.191
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-72b,0.495
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-7b,0
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-13b,0
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-70b,0
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,DeVops-7b,0.024
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,DeVops-14b,0.041
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,InternLM2-7b,0.088
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,InternLM2-20b,0.081
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,AquilaChat-7b,0.046
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-7B,0.078
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-14B,0.191
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-72B,0.495
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-7B,0
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-13B,0
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-70B,0
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,DeVops-7B,0.024
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,DeVops-14B,0.041
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,InternLM2-7B,0.088
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,InternLM2-20B,0.081
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,AquilaChat-7B,0.046
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,GPT-3.5,0.088
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,GPT-4,0.136
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Gemini Pro,0.141
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Mistral-7b,0.122
-Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,BaiChuan2-13b,0.001
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Mistral-7B,0.122
+Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,BaiChuan2-13B,0.001
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,GhatGLM4,0.3
 Log Anomaly Detection,naive Q&A,few-shot,Chinese,F1-score,Claude3 Sonnet,0.082
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Qwen1.5-7b,0.095
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Qwen1.5-14b,0.031
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Qwen1.5-72b,0.274
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,LLaMa2-7b,0.004
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,LLaMa2-13b,0.001
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,LLaMa2-70b,0.036
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,DeVops-7b,0.252
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,DeVops-14b,0.293
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,InternLM2-7b,0.323
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,InternLM2-20b,0.348
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,AquilaChat-7b,0.229
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Qwen1.5-7B,0.095
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Qwen1.5-14B,0.031
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Qwen1.5-72B,0.274
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,LLaMa2-7B,0.004
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,LLaMa2-13B,0.001
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,LLaMa2-70B,0.036
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,DeVops-7B,0.252
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,DeVops-14B,0.293
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,InternLM2-7B,0.323
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,InternLM2-20B,0.348
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,AquilaChat-7B,0.229
 Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,GPT-3.5,0.402
 Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,GPT-4,0.506
 Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Gemini Pro,0.531
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Mistral-7b,0.546
-Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,BaiChuan2-13b,0.335
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Mistral-7B,0.546
+Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,BaiChuan2-13B,0.335
 Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,GhatGLM4,0.331
 Log Anomaly Detection,naive Q&A,few-shot,English,accuracy,Claude3 Sonnet,0.15
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Qwen1.5-7b,0.046
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Qwen1.5-14b,0.027
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Qwen1.5-72b,0.16
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,LLaMa2-7b,0
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,LLaMa2-13b,0
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,LLaMa2-70b,0.007
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,DeVops-7b,0.029
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,DeVops-14b,0.032
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,InternLM2-7b,0.075
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,InternLM2-20b,0.089
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,AquilaChat-7b,0.003
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Qwen1.5-7B,0.046
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Qwen1.5-14B,0.027
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Qwen1.5-72B,0.16
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,LLaMa2-7B,0
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,LLaMa2-13B,0
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,LLaMa2-70B,0.007
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,DeVops-7B,0.029
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,DeVops-14B,0.032
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,InternLM2-7B,0.075
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,InternLM2-20B,0.089
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,AquilaChat-7B,0.003
 Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,GPT-3.5,0.107
 Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,GPT-4,0.135
 Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Gemini Pro,0.132
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Mistral-7b,0.092
-Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,BaiChuan2-13b,0.438
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Mistral-7B,0.092
+Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,BaiChuan2-13B,0.438
 Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,GhatGLM4,0.221
 Log Anomaly Detection,naive Q&A,few-shot,English,F1-score,Claude3 Sonnet,0.064
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7b,0.351
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14b,0.366
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72b,0.306
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7b,0.086
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13b,0.057
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70b,0.091
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7b,0.324
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14b,0.363
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7b,0.493
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20b,0.442
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7b,0.312
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7B,0.351
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14B,0.366
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72B,0.306
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7B,0.086
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13B,0.057
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70B,0.091
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7B,0.324
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14B,0.363
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7B,0.493
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20B,0.442
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7B,0.312
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,GPT-3.5,0.413
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,GPT-4,0.247
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Gemini Pro,0.367
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7b,0.38
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13b,0.045
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7B,0.38
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13B,0.045
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,GhatGLM4,0.35
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,accuracy,Claude3 Sonnet,0.288
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7b,0.326
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14b,0.573
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72b,0.38
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-7b,0.151
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-13b,0.098
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-70b,0.149
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,DeVops-7b,0.229
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,DeVops-14b,0.324
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-7b,0.527
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-20b,0.579
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,AquilaChat-7b,0.327
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7B,0.326
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14B,0.573
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72B,0.38
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-7B,0.151
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-13B,0.098
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-70B,0.149
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,DeVops-7B,0.229
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,DeVops-14B,0.324
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-7B,0.527
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-20B,0.579
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,AquilaChat-7B,0.327
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,GPT-3.5,0.473
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,GPT-4,0.225
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Gemini Pro,0.331
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Mistral-7b,0.418
-Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13b,0.069
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Mistral-7B,0.418
+Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13B,0.069
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,GhatGLM4,0.754
 Log Fault Diagnosis,naive Q&A,zero-shot,Chinese,F1-score,Claude3 Sonnet,0.287
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7b,0.315
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14b,0.182
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72b,0.194
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,LLaMa2-7b,0.354
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,LLaMa2-13b,0.38
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,LLaMa2-70b,0.23
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,DeVops-7b,0.281
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,DeVops-14b,0.288
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,InternLM2-7b,0.248
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,InternLM2-20b,0.342
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,AquilaChat-7b,0.313
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7B,0.315
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14B,0.182
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72B,0.194
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,LLaMa2-7B,0.354
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,LLaMa2-13B,0.38
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,LLaMa2-70B,0.23
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,DeVops-7B,0.281
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,DeVops-14B,0.288
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,InternLM2-7B,0.248
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,InternLM2-20B,0.342
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,AquilaChat-7B,0.313
 Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,GPT-3.5,0.278
 Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,GPT-4,0.424
 Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Gemini Pro,0.32
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Mistral-7b,0.248
-Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13b,0
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Mistral-7B,0.248
+Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13B,0
 Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,GhatGLM4,0.404
 Log Fault Diagnosis,naive Q&A,zero-shot,English,accuracy,Claude3 Sonnet,0.442
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Qwen1.5-7b,0.516
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Qwen1.5-14b,0.561
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Qwen1.5-72b,0.423
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,LLaMa2-7b,0.408
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,LLaMa2-13b,0.44
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,LLaMa2-70b,0.291
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,DeVops-7b,0.357
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,DeVops-14b,0.416
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,InternLM2-7b,0.284
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,InternLM2-20b,0.425
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,AquilaChat-7b,0.348
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Qwen1.5-7B,0.516
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Qwen1.5-14B,0.561
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Qwen1.5-72B,0.423
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,LLaMa2-7B,0.408
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,LLaMa2-13B,0.44
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,LLaMa2-70B,0.291
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,DeVops-7B,0.357
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,DeVops-14B,0.416
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,InternLM2-7B,0.284
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,InternLM2-20B,0.425
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,AquilaChat-7B,0.348
 Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,GPT-3.5,0.336
 Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,GPT-4,0.453
 Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Gemini Pro,0.298
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Mistral-7b,0.284
-Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,BaiChuan2-13b,0
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Mistral-7B,0.284
+Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,BaiChuan2-13B,0
 Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,GhatGLM4,0.708
 Log Fault Diagnosis,naive Q&A,zero-shot,English,F1-score,Claude3 Sonnet,0.422
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7b,0.591
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14b,0.415
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72b,0.869
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7b,0.013
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13b,0.015
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70b,0.08
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,DeVops-7b,0.28
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,DeVops-14b,0.343
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7b,0.485
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20b,0.592
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7b,0.039
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7B,0.591
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14B,0.415
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72B,0.869
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7B,0.013
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13B,0.015
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70B,0.08
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,DeVops-7B,0.28
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,DeVops-14B,0.343
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7B,0.485
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20B,0.592
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7B,0.039
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,GPT-3.5,0.882
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,GPT-4,0.887
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Gemini Pro,0.874
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Mistral-7b,0.765
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13b,0.03
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Mistral-7B,0.765
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13B,0.03
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,GhatGLM4,0.678
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,accuracy,Claude3 Sonnet,0.536
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-7b,0.651
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-14b,0.615
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-72b,0.899
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-7b,0.025
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-13b,0.029
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-70b,0.144
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,DeVops-7b,0.617
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,DeVops-14b,0.736
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,InternLM2-7b,0.761
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,InternLM2-20b,0.762
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,AquilaChat-7b,0.071
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-7B,0.651
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-14B,0.615
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-72B,0.899
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-7B,0.025
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-13B,0.029
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-70B,0.144
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,DeVops-7B,0.617
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,DeVops-14B,0.736
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,InternLM2-7B,0.761
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,InternLM2-20B,0.762
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,AquilaChat-7B,0.071
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,GPT-3.5,0.923
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,GPT-4,0.931
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Gemini Pro,0.61
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Mistral-7b,0.506
-Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,BaiChuan2-13b,0
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Mistral-7B,0.506
+Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,BaiChuan2-13B,0
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,GhatGLM4,0.793
 Log Fault Diagnosis,naive Q&A,few-shot,Chinese,F1-score,Claude3 Sonnet,0.366
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Qwen1.5-7b,0.452
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Qwen1.5-14b,0.576
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Qwen1.5-72b,0.798
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,LLaMa2-7b,0.066
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,LLaMa2-13b,0.107
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,LLaMa2-70b,0.511
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,DeVops-7b,0.361
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,DeVops-14b,0.687
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,InternLM2-7b,0.383
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,InternLM2-20b,0.626
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,AquilaChat-7b,0.219
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Qwen1.5-7B,0.452
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Qwen1.5-14B,0.576
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Qwen1.5-72B,0.798
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,LLaMa2-7B,0.066
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,LLaMa2-13B,0.107
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,LLaMa2-70B,0.511
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,DeVops-7B,0.361
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,DeVops-14B,0.687
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,InternLM2-7B,0.383
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,InternLM2-20B,0.626
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,AquilaChat-7B,0.219
 Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,GPT-3.5,0.852
 Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,GPT-4,0.929
 Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Gemini Pro,0.784
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Mistral-7b,0.598
-Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,BaiChuan2-13b,0
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Mistral-7B,0.598
+Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,BaiChuan2-13B,0
 Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,GhatGLM4,0.751
 Log Fault Diagnosis,naive Q&A,few-shot,English,accuracy,Claude3 Sonnet,0.8
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Qwen1.5-7b,0.505
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Qwen1.5-14b,0.631
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Qwen1.5-72b,0.84
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,LLaMa2-7b,0.115
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,LLaMa2-13b,0.179
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,LLaMa2-70b,0.635
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,DeVops-7b,0.629
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,DeVops-14b,0.733
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,InternLM2-7b,0.669
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,InternLM2-20b,0.721
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,AquilaChat-7b,0.295
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Qwen1.5-7B,0.505
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Qwen1.5-14B,0.631
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Qwen1.5-72B,0.84
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,LLaMa2-7B,0.115
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,LLaMa2-13B,0.179
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,LLaMa2-70B,0.635
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,DeVops-7B,0.629
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,DeVops-14B,0.733
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,InternLM2-7B,0.669
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,InternLM2-20B,0.721
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,AquilaChat-7B,0.295
 Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,GPT-3.5,0.916
 Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,GPT-4,0.956
 Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Gemini Pro,0.701
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Mistral-7b,0.491
-Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,BaiChuan2-13b,0
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Mistral-7B,0.491
+Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,BaiChuan2-13B,0
 Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,GhatGLM4,0.785
 Log Fault Diagnosis,naive Q&A,few-shot,English,F1-score,Claude3 Sonnet,0.7
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7b,0.355
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14b,0.275
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72b,0.31
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7b,0.4
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13b,0.41
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70b,0.5
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7b,0.725
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14b,0.82
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7b,37
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20b,0.385
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7b,0.355
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7B,0.355
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14B,0.275
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72B,0.31
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-7B,0.4
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-13B,0.41
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,LLaMa2-70B,0.5
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,DeVops-7B,0.725
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,DeVops-14B,0.82
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-7B,37
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,InternLM2-20B,0.385
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,AquilaChat-7B,0.355
 Log Summary,naive Q&A,zero-shot,Chinese,accuracy,GPT-3.5,0.395
 Log Summary,naive Q&A,zero-shot,Chinese,accuracy,GPT-4,0.345
 Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Gemini Pro,0.34
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7b,0.37
-Log Summary,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13b,0.195
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Mistral-7B,0.37
+Log Summary,naive Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13B,0.195
 Log Summary,naive Q&A,zero-shot,Chinese,accuracy,GhatGLM4,0.275
 Log Summary,naive Q&A,zero-shot,Chinese,accuracy,Claude3 Sonnet,0.32
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7b,0.397
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14b,0.305
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72b,0.362
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-7b,0.447
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-13b,0.439
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-70b,0.537
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,DeVops-7b,0.763
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,DeVops-14b,0.864
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-7b,0.393
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-20b,0.423
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,AquilaChat-7b,0.382
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7B,0.397
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14B,0.305
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72B,0.362
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-7B,0.447
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-13B,0.439
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,LLaMa2-70B,0.537
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,DeVops-7B,0.763
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,DeVops-14B,0.864
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-7B,0.393
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,InternLM2-20B,0.423
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,AquilaChat-7B,0.382
 Log Summary,naive Q&A,zero-shot,Chinese,F1-score,GPT-3.5,0.427
 Log Summary,naive Q&A,zero-shot,Chinese,F1-score,GPT-4,0.384
 Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Gemini Pro,0.372
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Mistral-7b,0.402
-Log Summary,naive Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13b,0.008
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Mistral-7B,0.402
+Log Summary,naive Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13B,0.008
 Log Summary,naive Q&A,zero-shot,Chinese,F1-score,GhatGLM4,0.308
 Log Summary,naive Q&A,zero-shot,Chinese,F1-score,Claude3 Sonnet,0.358
-Log Summary,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7b,0.405
-Log Summary,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14b,0.355
-Log Summary,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72b,0.52
-Log Summary,naive Q&A,zero-shot,English,accuracy,LLaMa2-7b,0.4
-Log Summary,naive Q&A,zero-shot,English,accuracy,LLaMa2-13b,0.29
-Log Summary,naive Q&A,zero-shot,English,accuracy,LLaMa2-70b,0.31
-Log Summary,naive Q&A,zero-shot,English,accuracy,DeVops-7b,0.71
-Log Summary,naive Q&A,zero-shot,English,accuracy,DeVops-14b,0.795
-Log Summary,naive Q&A,zero-shot,English,accuracy,InternLM2-7b,0.465
-Log Summary,naive Q&A,zero-shot,English,accuracy,InternLM2-20b,0.515
-Log Summary,naive Q&A,zero-shot,English,accuracy,AquilaChat-7b,0.505
+Log Summary,naive Q&A,zero-shot,English,accuracy,Qwen1.5-7B,0.405
+Log Summary,naive Q&A,zero-shot,English,accuracy,Qwen1.5-14B,0.355
+Log Summary,naive Q&A,zero-shot,English,accuracy,Qwen1.5-72B,0.52
+Log Summary,naive Q&A,zero-shot,English,accuracy,LLaMa2-7B,0.4
+Log Summary,naive Q&A,zero-shot,English,accuracy,LLaMa2-13B,0.29
+Log Summary,naive Q&A,zero-shot,English,accuracy,LLaMa2-70B,0.31
+Log Summary,naive Q&A,zero-shot,English,accuracy,DeVops-7B,0.71
+Log Summary,naive Q&A,zero-shot,English,accuracy,DeVops-14B,0.795
+Log Summary,naive Q&A,zero-shot,English,accuracy,InternLM2-7B,0.465
+Log Summary,naive Q&A,zero-shot,English,accuracy,InternLM2-20B,0.515
+Log Summary,naive Q&A,zero-shot,English,accuracy,AquilaChat-7B,0.505
 Log Summary,naive Q&A,zero-shot,English,accuracy,GPT-3.5,0.545
 Log Summary,naive Q&A,zero-shot,English,accuracy,GPT-4,0.515
 Log Summary,naive Q&A,zero-shot,English,accuracy,Gemini Pro,0.575
-Log Summary,naive Q&A,zero-shot,English,accuracy,Mistral-7b,0.565
-Log Summary,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13b,0.285
+Log Summary,naive Q&A,zero-shot,English,accuracy,Mistral-7B,0.565
+Log Summary,naive Q&A,zero-shot,English,accuracy,BaiChuan2-13B,0.285
 Log Summary,naive Q&A,zero-shot,English,accuracy,GhatGLM4,0.435
 Log Summary,naive Q&A,zero-shot,English,accuracy,Claude3 Sonnet,0.85
-Log Summary,naive Q&A,zero-shot,English,F1-score,Qwen1.5-7b,0.456
-Log Summary,naive Q&A,zero-shot,English,F1-score,Qwen1.5-14b,0.378
-Log Summary,naive Q&A,zero-shot,English,F1-score,Qwen1.5-72b,0.567
-Log Summary,naive Q&A,zero-shot,English,F1-score,LLaMa2-7b,0.448
-Log Summary,naive Q&A,zero-shot,English,F1-score,LLaMa2-13b,0.327
-Log Summary,naive Q&A,zero-shot,English,F1-score,LLaMa2-70b,0.368
-Log Summary,naive Q&A,zero-shot,English,F1-score,DeVops-7b,0.756
-Log Summary,naive Q&A,zero-shot,English,F1-score,DeVops-14b,0.831
-Log Summary,naive Q&A,zero-shot,English,F1-score,InternLM2-7b,0.498
-Log Summary,naive Q&A,zero-shot,English,F1-score,InternLM2-20b,0.565
-Log Summary,naive Q&A,zero-shot,English,F1-score,AquilaChat-7b,0.539
+Log Summary,naive Q&A,zero-shot,English,F1-score,Qwen1.5-7B,0.456
+Log Summary,naive Q&A,zero-shot,English,F1-score,Qwen1.5-14B,0.378
+Log Summary,naive Q&A,zero-shot,English,F1-score,Qwen1.5-72B,0.567
+Log Summary,naive Q&A,zero-shot,English,F1-score,LLaMa2-7B,0.448
+Log Summary,naive Q&A,zero-shot,English,F1-score,LLaMa2-13B,0.327
+Log Summary,naive Q&A,zero-shot,English,F1-score,LLaMa2-70B,0.368
+Log Summary,naive Q&A,zero-shot,English,F1-score,DeVops-7B,0.756
+Log Summary,naive Q&A,zero-shot,English,F1-score,DeVops-14B,0.831
+Log Summary,naive Q&A,zero-shot,English,F1-score,InternLM2-7B,0.498
+Log Summary,naive Q&A,zero-shot,English,F1-score,InternLM2-20B,0.565
+Log Summary,naive Q&A,zero-shot,English,F1-score,AquilaChat-7B,0.539
 Log Summary,naive Q&A,zero-shot,English,F1-score,GPT-3.5,0.585
 Log Summary,naive Q&A,zero-shot,English,F1-score,GPT-4,0.572
 Log Summary,naive Q&A,zero-shot,English,F1-score,Gemini Pro,0.611
-Log Summary,naive Q&A,zero-shot,English,F1-score,Mistral-7b,0.612
-Log Summary,naive Q&A,zero-shot,English,F1-score,BaiChuan2-13b,0.329
+Log Summary,naive Q&A,zero-shot,English,F1-score,Mistral-7B,0.612
+Log Summary,naive Q&A,zero-shot,English,F1-score,BaiChuan2-13B,0.329
 Log Summary,naive Q&A,zero-shot,English,F1-score,GhatGLM4,0.482
 Log Summary,naive Q&A,zero-shot,English,F1-score,Claude3 Sonnet,0.903
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7b,0.27
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14b,0.75
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72b,0.945
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7b,0.18
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13b,0.125
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70b,0.485
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,DeVops-7b,0.82
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,DeVops-14b,0.84
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7b,0.635
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20b,0.765
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7b,0.14
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-7B,0.27
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-14B,0.75
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,Qwen1.5-72B,0.945
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-7B,0.18
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-13B,0.125
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,LLaMa2-70B,0.485
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,DeVops-7B,0.82
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,DeVops-14B,0.84
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,InternLM2-7B,0.635
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,InternLM2-20B,0.765
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,AquilaChat-7B,0.14
 Log Summary,naive Q&A,few-shot,Chinese,accuracy,GPT-3.5,0.399
 Log Summary,naive Q&A,few-shot,Chinese,accuracy,GPT-4,0.546
 Log Summary,naive Q&A,few-shot,Chinese,accuracy,Gemini Pro,0.606
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,Mistral-7b,0.795
-Log Summary,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13b,0.34
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,Mistral-7B,0.795
+Log Summary,naive Q&A,few-shot,Chinese,accuracy,BaiChuan2-13B,0.34
 Log Summary,naive Q&A,few-shot,Chinese,accuracy,GhatGLM4,0.605
 Log Summary,naive Q&A,few-shot,Chinese,accuracy,Claude3 Sonnet,0.465
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-7b,0.302
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-14b,0.802
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-72b,0.975
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-7b,0.221
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-13b,0.153
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-70b,0.517
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,DeVops-7b,0.872
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,DeVops-14b,0.901
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,InternLM2-7b,0.669
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,InternLM2-20b,0.796
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,AquilaChat-7b,0.163
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-7B,0.302
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-14B,0.802
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,Qwen1.5-72B,0.975
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-7B,0.221
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-13B,0.153
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,LLaMa2-70B,0.517
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,DeVops-7B,0.872
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,DeVops-14B,0.901
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,InternLM2-7B,0.669
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,InternLM2-20B,0.796
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,AquilaChat-7B,0.163
 Log Summary,naive Q&A,few-shot,Chinese,F1-score,GPT-3.5,0.438
 Log Summary,naive Q&A,few-shot,Chinese,F1-score,GPT-4,0.603
 Log Summary,naive Q&A,few-shot,Chinese,F1-score,Gemini Pro,0.647
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,Mistral-7b,0.827
-Log Summary,naive Q&A,few-shot,Chinese,F1-score,BaiChuan2-13b,0.385
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,Mistral-7B,0.827
+Log Summary,naive Q&A,few-shot,Chinese,F1-score,BaiChuan2-13B,0.385
 Log Summary,naive Q&A,few-shot,Chinese,F1-score,GhatGLM4,0.633
 Log Summary,naive Q&A,few-shot,Chinese,F1-score,Claude3 Sonnet,0.493
-Log Summary,naive Q&A,few-shot,English,accuracy,Qwen1.5-7b,0.31
-Log Summary,naive Q&A,few-shot,English,accuracy,Qwen1.5-14b,0.6
-Log Summary,naive Q&A,few-shot,English,accuracy,Qwen1.5-72b,0.62
-Log Summary,naive Q&A,few-shot,English,accuracy,LLaMa2-7b,0.23
-Log Summary,naive Q&A,few-shot,English,accuracy,LLaMa2-13b,0.255
-Log Summary,naive Q&A,few-shot,English,accuracy,LLaMa2-70b,0.335
-Log Summary,naive Q&A,few-shot,English,accuracy,DeVops-7b,0.805
-Log Summary,naive Q&A,few-shot,English,accuracy,DeVops-14b,0.856
-Log Summary,naive Q&A,few-shot,English,accuracy,InternLM2-7b,0.695
-Log Summary,naive Q&A,few-shot,English,accuracy,InternLM2-20b,0.81
-Log Summary,naive Q&A,few-shot,English,accuracy,AquilaChat-7b,0.245
+Log Summary,naive Q&A,few-shot,English,accuracy,Qwen1.5-7B,0.31
+Log Summary,naive Q&A,few-shot,English,accuracy,Qwen1.5-14B,0.6
+Log Summary,naive Q&A,few-shot,English,accuracy,Qwen1.5-72B,0.62
+Log Summary,naive Q&A,few-shot,English,accuracy,LLaMa2-7B,0.23
+Log Summary,naive Q&A,few-shot,English,accuracy,LLaMa2-13B,0.255
+Log Summary,naive Q&A,few-shot,English,accuracy,LLaMa2-70B,0.335
+Log Summary,naive Q&A,few-shot,English,accuracy,DeVops-7B,0.805
+Log Summary,naive Q&A,few-shot,English,accuracy,DeVops-14B,0.856
+Log Summary,naive Q&A,few-shot,English,accuracy,InternLM2-7B,0.695
+Log Summary,naive Q&A,few-shot,English,accuracy,InternLM2-20B,0.81
+Log Summary,naive Q&A,few-shot,English,accuracy,AquilaChat-7B,0.245
 Log Summary,naive Q&A,few-shot,English,accuracy,GPT-3.5,0.493
 Log Summary,naive Q&A,few-shot,English,accuracy,GPT-4,0.541
 Log Summary,naive Q&A,few-shot,English,accuracy,Gemini Pro,0.85
-Log Summary,naive Q&A,few-shot,English,accuracy,Mistral-7b,0.8
-Log Summary,naive Q&A,few-shot,English,accuracy,BaiChuan2-13b,0.495
+Log Summary,naive Q&A,few-shot,English,accuracy,Mistral-7B,0.8
+Log Summary,naive Q&A,few-shot,English,accuracy,BaiChuan2-13B,0.495
 Log Summary,naive Q&A,few-shot,English,accuracy,GhatGLM4,0.515
 Log Summary,naive Q&A,few-shot,English,accuracy,Claude3 Sonnet,0.585
-Log Summary,naive Q&A,few-shot,English,F1-score,Qwen1.5-7b,0.342
-Log Summary,naive Q&A,few-shot,English,F1-score,Qwen1.5-14b,0.635
-Log Summary,naive Q&A,few-shot,English,F1-score,Qwen1.5-72b,0.658
-Log Summary,naive Q&A,few-shot,English,F1-score,LLaMa2-7b,0.258
-Log Summary,naive Q&A,few-shot,English,F1-score,LLaMa2-13b,0.282
-Log Summary,naive Q&A,few-shot,English,F1-score,LLaMa2-70b,0.375
-Log Summary,naive Q&A,few-shot,English,F1-score,DeVops-7b,0.854
-Log Summary,naive Q&A,few-shot,English,F1-score,DeVops-14b,0.887
-Log Summary,naive Q&A,few-shot,English,F1-score,InternLM2-7b,0.726
-Log Summary,naive Q&A,few-shot,English,F1-score,InternLM2-20b,0.841
-Log Summary,naive Q&A,few-shot,English,F1-score,AquilaChat-7b,0.271
+Log Summary,naive Q&A,few-shot,English,F1-score,Qwen1.5-7B,0.342
+Log Summary,naive Q&A,few-shot,English,F1-score,Qwen1.5-14B,0.635
+Log Summary,naive Q&A,few-shot,English,F1-score,Qwen1.5-72B,0.658
+Log Summary,naive Q&A,few-shot,English,F1-score,LLaMa2-7B,0.258
+Log Summary,naive Q&A,few-shot,English,F1-score,LLaMa2-13B,0.282
+Log Summary,naive Q&A,few-shot,English,F1-score,LLaMa2-70B,0.375
+Log Summary,naive Q&A,few-shot,English,F1-score,DeVops-7B,0.854
+Log Summary,naive Q&A,few-shot,English,F1-score,DeVops-14B,0.887
+Log Summary,naive Q&A,few-shot,English,F1-score,InternLM2-7B,0.726
+Log Summary,naive Q&A,few-shot,English,F1-score,InternLM2-20B,0.841
+Log Summary,naive Q&A,few-shot,English,F1-score,AquilaChat-7B,0.271
 Log Summary,naive Q&A,few-shot,English,F1-score,GPT-3.5,0.521
 Log Summary,naive Q&A,few-shot,English,F1-score,GPT-4,0.593
 Log Summary,naive Q&A,few-shot,English,F1-score,Gemini Pro,0.882
-Log Summary,naive Q&A,few-shot,English,F1-score,Mistral-7b,0.847
-Log Summary,naive Q&A,few-shot,English,F1-score,BaiChuan2-13b,0.521
+Log Summary,naive Q&A,few-shot,English,F1-score,Mistral-7B,0.847
+Log Summary,naive Q&A,few-shot,English,F1-score,BaiChuan2-13B,0.521
 Log Summary,naive Q&A,few-shot,English,F1-score,GhatGLM4,0.547
 Log Summary,naive Q&A,few-shot,English,F1-score,Claude3 Sonnet,0.625
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7b,0.587
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14b,0.38
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72b,0.342
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-7b,0.114
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-13b,0.336
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-70b,0.478
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,DeVops-7b,0.106
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,DeVops-14b,0.171
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-7b,0.392
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-20b,0.368
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,AquilaChat-7b,0.128
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7B,0.587
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14B,0.38
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72B,0.342
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-7B,0.114
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-13B,0.336
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-70B,0.478
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,DeVops-7B,0.106
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,DeVops-14B,0.171
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-7B,0.392
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-20B,0.368
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,AquilaChat-7B,0.128
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,GPT-3.5,0.246
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,GPT-4,0.33
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Gemini Pro,0.557
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Mistral-7b,0.63
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13b,0.838
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Mistral-7B,0.63
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13B,0.838
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,GhatGLM4,0.521
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,accuracy,Claude3 Sonnet,0.347
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7b,0.148
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14b,0.103
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72b,0.098
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-7b,0.005
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-13b,0.05
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-70b,0.029
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,DeVops-7b,0.039
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,DeVops-14b,0.043
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-7b,0.089
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-20b,0.083
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,AquilaChat-7b,0.035
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7B,0.148
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14B,0.103
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72B,0.098
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-7B,0.005
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-13B,0.05
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-70B,0.029
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,DeVops-7B,0.039
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,DeVops-14B,0.043
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-7B,0.089
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-20B,0.083
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,AquilaChat-7B,0.035
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,GPT-3.5,0.084
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,GPT-4,0.096
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Gemini Pro,0.139
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Mistral-7b,0.162
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13b,0.232
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Mistral-7B,0.162
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13B,0.232
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,GhatGLM4,0.128
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score,Claude3 Sonnet,0.099
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Qwen1.5-7b,0.055
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Qwen1.5-14b,0.248
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Qwen1.5-72b,0.264
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,LLaMa2-7b,0.944
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,LLaMa2-13b,0.658
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,LLaMa2-70b,0.692
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,DeVops-7b,0.213
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,DeVops-14b,0.154
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,InternLM2-7b,0.338
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,InternLM2-20b,0.334
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,AquilaChat-7b,0.644
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Qwen1.5-7B,0.055
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Qwen1.5-14B,0.248
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Qwen1.5-72B,0.264
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,LLaMa2-7B,0.944
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,LLaMa2-13B,0.658
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,LLaMa2-70B,0.692
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,DeVops-7B,0.213
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,DeVops-14B,0.154
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,InternLM2-7B,0.338
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,InternLM2-20B,0.334
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,AquilaChat-7B,0.644
 Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,GPT-3.5,0.27
 Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,GPT-4,0.332
 Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Gemini Pro,0.414
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Mistral-7b,0.423
-Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,BaiChuan2-13b,0.522
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Mistral-7B,0.423
+Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,BaiChuan2-13B,0.522
 Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,GhatGLM4,0.366
 Log Anomaly Detection,SC Q&A,zero-shot,English,accuracy,Claude3 Sonnet,0.354
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Qwen1.5-7b,0.11
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Qwen1.5-14b,0.037
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Qwen1.5-72b,0.067
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,LLaMa2-7b,0.103
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,LLaMa2-13b,0.121
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,LLaMa2-70b,0.043
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,DeVops-7b,0.03
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,DeVops-14b,0.025
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,InternLM2-7b,0.089
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,InternLM2-20b,0.076
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,AquilaChat-7b,0.035
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Qwen1.5-7B,0.11
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Qwen1.5-14B,0.037
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Qwen1.5-72B,0.067
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,LLaMa2-7B,0.103
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,LLaMa2-13B,0.121
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,LLaMa2-70B,0.043
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,DeVops-7B,0.03
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,DeVops-14B,0.025
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,InternLM2-7B,0.089
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,InternLM2-20B,0.076
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,AquilaChat-7B,0.035
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,GPT-3.5,0.083
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,GPT-4,0.097
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Gemini Pro,0.108
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Mistral-7b,0.074
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,BaiChuan2-13b,0.006
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Mistral-7B,0.074
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,BaiChuan2-13B,0.006
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,GhatGLM4,0.098
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score,Claude3 Sonnet,0.1
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-7b,0.005
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-14b,0.138
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-72b,0.332
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-7b,0
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-13b,0
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-70b,0
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,DeVops-7b,0.182
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,DeVops-14b,0.316
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,InternLM2-7b,0.205
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,InternLM2-20b,0.342
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,AquilaChat-7b,0.2
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-7B,0.005
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-14B,0.138
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-72B,0.332
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-7B,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-13B,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-70B,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,DeVops-7B,0.182
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,DeVops-14B,0.316
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,InternLM2-7B,0.205
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,InternLM2-20B,0.342
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,AquilaChat-7B,0.2
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,GPT-3.5,0.284
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,GPT-4,0.546
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Gemini Pro,0.473
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Mistral-7b,0.532
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,BaiChuan2-13b,0.276
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Mistral-7B,0.532
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,BaiChuan2-13B,0.276
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,GhatGLM4,0.359
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,accuracy,Claude3 Sonnet,0.458
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-7b,0.005
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-14b,0.235
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-72b,0.498
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-7b,0
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-13b,0
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-70b,0
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,DeVops-7b,0.076
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,DeVops-14b,0.136
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,InternLM2-7b,0.014
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,InternLM2-20b,0.046
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,AquilaChat-7b,0.037
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-7B,0.005
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-14B,0.235
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-72B,0.498
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-7B,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-13B,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-70B,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,DeVops-7B,0.076
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,DeVops-14B,0.136
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,InternLM2-7B,0.014
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,InternLM2-20B,0.046
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,AquilaChat-7B,0.037
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,GPT-3.5,0.088
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,GPT-4,0.136
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Gemini Pro,0.143
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Mistral-7b,0.088
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,BaiChuan2-13b,0
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Mistral-7B,0.088
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,BaiChuan2-13B,0
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,GhatGLM4,0.1
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score,Claude3 Sonnet,0.081
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Qwen1.5-7b,0.097
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Qwen1.5-14b,0.03
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Qwen1.5-72b,0.277
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,LLaMa2-7b,0.001
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,LLaMa2-13b,0
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,LLaMa2-70b,0.019
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,DeVops-7b,0.211
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,DeVops-14b,0.29
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,InternLM2-7b,0.388
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,InternLM2-20b,0.35
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,AquilaChat-7b,0.191
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Qwen1.5-7B,0.097
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Qwen1.5-14B,0.03
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Qwen1.5-72B,0.277
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,LLaMa2-7B,0.001
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,LLaMa2-13B,0
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,LLaMa2-70B,0.019
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,DeVops-7B,0.211
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,DeVops-14B,0.29
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,InternLM2-7B,0.388
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,InternLM2-20B,0.35
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,AquilaChat-7B,0.191
 Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,GPT-3.5,0.347
 Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,GPT-4,0.543
 Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Gemini Pro,0.27
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Mistral-7b,0.472
-Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,BaiChuan2-13b,0.328
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Mistral-7B,0.472
+Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,BaiChuan2-13B,0.328
 Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,GhatGLM4,0.33
 Log Anomaly Detection,SC Q&A,few-shot,English,accuracy,Claude3 Sonnet,0.15
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Qwen1.5-7b,0.048
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Qwen1.5-14b,0.03
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Qwen1.5-72b,0.163
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,LLaMa2-7b,0
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,LLaMa2-13b,0
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,LLaMa2-70b,0.003
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,DeVops-7b,0.013
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,DeVops-14b,0.06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,InternLM2-7b,0.03
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,InternLM2-20b,0.018
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,AquilaChat-7b,0.001
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Qwen1.5-7B,0.048
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Qwen1.5-14B,0.03
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Qwen1.5-72B,0.163
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,LLaMa2-7B,0
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,LLaMa2-13B,0
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,LLaMa2-70B,0.003
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,DeVops-7B,0.013
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,DeVops-14B,0.06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,InternLM2-7B,0.03
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,InternLM2-20B,0.018
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,AquilaChat-7B,0.001
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,GPT-3.5,0.082
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,GPT-4,0.135
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Gemini Pro,0.13
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Mistral-7b,0.017
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,BaiChuan2-13b,0.004
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Mistral-7B,0.017
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,BaiChuan2-13B,0.004
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,GhatGLM4,0.096
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score,Claude3 Sonnet,0.064
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7b,0.38
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14b,0.363
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72b,0.32
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-7b,0.057
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-13b,0.04
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-70b,0.078
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,DeVops-7b,0.326
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,DeVops-14b,0.352
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-7b,0.477
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-20b,0.423
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,AquilaChat-7b,0.237
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-7B,0.38
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-14B,0.363
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Qwen1.5-72B,0.32
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-7B,0.057
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-13B,0.04
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,LLaMa2-70B,0.078
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,DeVops-7B,0.326
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,DeVops-14B,0.352
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-7B,0.477
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,InternLM2-20B,0.423
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,AquilaChat-7B,0.237
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,GPT-3.5,0.431
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,GPT-4,0.241
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Gemini Pro,0.365
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Mistral-7b,0.387
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13b,0.072
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Mistral-7B,0.387
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,BaiChuan2-13B,0.072
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,GhatGLM4,0.342
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,accuracy,Claude3 Sonnet,0.288
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7b,0.323
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14b,0.357
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72b,0.292
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-7b,0.102
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-13b,0.066
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-70b,0.125
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,DeVops-7b,0.403
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,DeVops-14b,0.423
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-7b,0.553
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-20b,0.507
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,AquilaChat-7b,0.292
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-7B,0.323
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-14B,0.357
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Qwen1.5-72B,0.292
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-7B,0.102
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-13B,0.066
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,LLaMa2-70B,0.125
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,DeVops-7B,0.403
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,DeVops-14B,0.423
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-7B,0.553
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,InternLM2-20B,0.507
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,AquilaChat-7B,0.292
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,GPT-3.5,0.48
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,GPT-4,0.213
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Gemini Pro,0.333
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Mistral-7b,0.425
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13b,0.072
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Mistral-7B,0.425
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,BaiChuan2-13B,0.072
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,GhatGLM4,0.367
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score,Claude3 Sonnet,0.287
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Qwen1.5-7b,0.348
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Qwen1.5-14b,0.225
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Qwen1.5-72b,0.235
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,LLaMa2-7b,0.368
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,LLaMa2-13b,0.381
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,LLaMa2-70b,0.232
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,DeVops-7b,0.251
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,DeVops-14b,0.281
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,InternLM2-7b,0.198
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,InternLM2-20b,0.334
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,AquilaChat-7b,0.273
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Qwen1.5-7B,0.348
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Qwen1.5-14B,0.225
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Qwen1.5-72B,0.235
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,LLaMa2-7B,0.368
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,LLaMa2-13B,0.381
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,LLaMa2-70B,0.232
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,DeVops-7B,0.251
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,DeVops-14B,0.281
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,InternLM2-7B,0.198
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,InternLM2-20B,0.334
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,AquilaChat-7B,0.273
 Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,GPT-3.5,0.28
 Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,GPT-4,0.408
 Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Gemini Pro,0.32
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Mistral-7b,0.253
-Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,BaiChuan2-13b,0.063
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Mistral-7B,0.253
+Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,BaiChuan2-13B,0.063
 Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,GhatGLM4,0.417
 Log Fault Diagnosis,SC Q&A,zero-shot,English,accuracy,Claude3 Sonnet,0.441
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Qwen1.5-7b,0.339
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Qwen1.5-14b,0.2
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Qwen1.5-72b,0.221
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,LLaMa2-7b,0.417
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,LLaMa2-13b,0.436
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,LLaMa2-70b,0.288
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,DeVops-7b,0.345
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,DeVops-14b,0.346
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,InternLM2-7b,0.277
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,InternLM2-20b,0.412
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,AquilaChat-7b,0.327
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Qwen1.5-7B,0.339
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Qwen1.5-14B,0.2
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Qwen1.5-72B,0.221
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,LLaMa2-7B,0.417
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,LLaMa2-13B,0.436
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,LLaMa2-70B,0.288
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,DeVops-7B,0.345
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,DeVops-14B,0.346
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,InternLM2-7B,0.277
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,InternLM2-20B,0.412
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,AquilaChat-7B,0.327
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,GPT-3.5,0.323
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,GPT-4,0.43
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Gemini Pro,0.3
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Mistral-7b,0.287
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,BaiChuan2-13b,0.045
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Mistral-7B,0.287
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,BaiChuan2-13B,0.045
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,GhatGLM4,0.449
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score,Claude3 Sonnet,0.421
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-7b,0.591
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-14b,0.421
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-72b,0.868
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-7b,0.002
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-13b,0.006
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-70b,0.075
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,DeVops-7b,0.433
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,DeVops-14b,0.461
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,InternLM2-7b,0.567
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,InternLM2-20b,0.667
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,AquilaChat-7b,0.013
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-7B,0.591
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-14B,0.421
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Qwen1.5-72B,0.868
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-7B,0.002
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-13B,0.006
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,LLaMa2-70B,0.075
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,DeVops-7B,0.433
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,DeVops-14B,0.461
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,InternLM2-7B,0.567
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,InternLM2-20B,0.667
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,AquilaChat-7B,0.013
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,GPT-3.5,0.89
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,GPT-4,0.887
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Gemini Pro,0.503
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Mistral-7b,0.682
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,BaiChuan2-13b,0.023
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Mistral-7B,0.682
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,BaiChuan2-13B,0.023
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,GhatGLM4,0.687
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,accuracy,Claude3 Sonnet,0.538
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-7b,0.672
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-14b,0.534
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-72b,0.917
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-7b,0.003
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-13b,0.011
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-70b,0.136
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,DeVops-7b,0.617
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,DeVops-14b,0.776
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,InternLM2-7b,0.762
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,InternLM2-20b,0.761
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,AquilaChat-7b,0.026
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-7B,0.672
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-14B,0.534
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Qwen1.5-72B,0.917
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-7B,0.003
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-13B,0.011
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,LLaMa2-70B,0.136
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,DeVops-7B,0.617
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,DeVops-14B,0.776
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,InternLM2-7B,0.762
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,InternLM2-20B,0.761
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,AquilaChat-7B,0.026
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,GPT-3.5,0.936
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,GPT-4,0.93
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Gemini Pro,0.61
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Mistral-7b,0.508
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,BaiChuan2-13b,0.031
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Mistral-7B,0.508
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,BaiChuan2-13B,0.031
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,GhatGLM4,0.788
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score,Claude3 Sonnet,0.367
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Qwen1.5-7b,0.445
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Qwen1.5-14b,0.572
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Qwen1.5-72b,0.799
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,LLaMa2-7b,0.052
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,LLaMa2-13b,0.104
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,LLaMa2-70b,0.516
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,DeVops-7b,0.58
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,DeVops-14b,0.652
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,InternLM2-7b,0.522
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,InternLM2-20b,0.571
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,AquilaChat-7b,0.225
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Qwen1.5-7B,0.445
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Qwen1.5-14B,0.572
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Qwen1.5-72B,0.799
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,LLaMa2-7B,0.052
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,LLaMa2-13B,0.104
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,LLaMa2-70B,0.516
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,DeVops-7B,0.58
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,DeVops-14B,0.652
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,InternLM2-7B,0.522
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,InternLM2-20B,0.571
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,AquilaChat-7B,0.225
 Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,GPT-3.5,0.915
 Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,GPT-4,0.931
 Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Gemini Pro,0.593
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Mistral-7b,0.609
-Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,BaiChuan2-13b,0.029
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Mistral-7B,0.609
+Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,BaiChuan2-13B,0.029
 Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,GhatGLM4,0.781
 Log Fault Diagnosis,SC Q&A,few-shot,English,accuracy,Claude3 Sonnet,0.798
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Qwen1.5-7b,0.425
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Qwen1.5-14b,0.688
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Qwen1.5-72b,0.861
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,LLaMa2-7b,0.092
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,LLaMa2-13b,0.175
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,LLaMa2-70b,0.639
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,DeVops-7b,0.629
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,DeVops-14b,0.733
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,InternLM2-7b,0.636
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,InternLM2-20b,0.669
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,AquilaChat-7b,0.291
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Qwen1.5-7B,0.425
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Qwen1.5-14B,0.688
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Qwen1.5-72B,0.861
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,LLaMa2-7B,0.092
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,LLaMa2-13B,0.175
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,LLaMa2-70B,0.639
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,DeVops-7B,0.629
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,DeVops-14B,0.733
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,InternLM2-7B,0.636
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,InternLM2-20B,0.669
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,AquilaChat-7B,0.291
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,GPT-3.5,0.954
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,GPT-4,0.957
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Gemini Pro,0.695
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Mistral-7b,0.496
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,BaiChuan2-13b,0.05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Mistral-7B,0.496
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,BaiChuan2-13B,0.05
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,GhatGLM4,0.836
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score,Claude3 Sonnet,0.697
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-7b,1.57E-05
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-14b,0
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-72b,0
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-7b,2.80E-06
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-13b,1.47E-06
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-70b,3.66E-06
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-7b,3.36E-07
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-14b,2.68E-06
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-7b,1.42E-05
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-20b,1.02E-05
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,AquilaChat-7b,8.70E-06
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-7B,1.57E-05
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-14B,0
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-72B,0
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-7B,2.80E-06
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-13B,1.47E-06
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-70B,3.66E-06
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-7B,3.36E-07
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-14B,2.68E-06
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-7B,1.42E-05
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-20B,1.02E-05
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,AquilaChat-7B,8.70E-06
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,GPT-3.5,1.74E-07
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,GPT-4,3.66E-08
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Gemini Pro,2.86E-06
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Mistral-7b,7.51E-05
-Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,BaiChuan2-13b,0.00E+00
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Mistral-7B,7.51E-05
+Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,BaiChuan2-13B,0.00E+00
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,GhatGLM4,2.43E-07
 Log Anomaly Detection,SC Q&A,zero-shot,Chinese,F1-score Variance,Claude3 Sonnet,3.48E-10
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-7b,5.50E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-14b,5.70E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-72b,5.30E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-7b,4.31E-04
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-13b,1.53E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-70b,4.06E-05
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,DeVops-7b,1.56E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,DeVops-14b,7.32E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-7b,1.12E-05
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-20b,8.29E-06
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,AquilaChat-7b,3.16E-05
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-7B,5.50E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-14B,5.70E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-72B,5.30E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-7B,4.31E-04
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-13B,1.53E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-70B,4.06E-05
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,DeVops-7B,1.56E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,DeVops-14B,7.32E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-7B,1.12E-05
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-20B,8.29E-06
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,AquilaChat-7B,3.16E-05
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,GPT-3.5,2.74E-06
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,GPT-4,2.19E-07
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Gemini Pro,5.83E-07
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Mistral-7b,4.04E-05
-Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,BaiChuan2-13b,2.94E-11
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Mistral-7B,4.04E-05
+Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,BaiChuan2-13B,2.94E-11
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,GhatGLM4,2.59E-07
 Log Anomaly Detection,SC Q&A,zero-shot,English,F1-score Variance,Claude3 Sonnet,1.57E-09
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-7b,9.70E-06
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-14b,2.00E-07
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-72b,1.08E-05
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-7b,0.00E+00
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-13b,0.00E+00
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-70b,0.00E+00
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-7b,3.70E-06
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-14b,2.43E-06
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-7b,2.15E-08
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-20b,1.14E-05
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,AquilaChat-7b,1.44E-05
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-7B,9.70E-06
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-14B,2.00E-07
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-72B,1.08E-05
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-7B,0.00E+00
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-13B,0.00E+00
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-70B,0.00E+00
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-7B,3.70E-06
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-14B,2.43E-06
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-7B,2.15E-08
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-20B,1.14E-05
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,AquilaChat-7B,1.44E-05
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,GPT-3.5,1.04E-06
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,GPT-4,1.27E-07
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Gemini Pro,4.21E-06
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Mistral-7b,2.81E-07
-Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,BaiChuan2-13b,0.00E+00
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Mistral-7B,2.81E-07
+Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,BaiChuan2-13B,0.00E+00
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,GhatGLM4,1.33E-08
 Log Anomaly Detection,SC Q&A,few-shot,Chinese,F1-score Variance,Claude3 Sonnet,1.38E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-7b,8.30E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-14b,5.20E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-72b,1.83E-05
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-7b,0.00E+00
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-13b,0.00E+00
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-70b,2.92E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,DeVops-7b,2.09E-07
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,DeVops-14b,7.40E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,InternLM2-7b,1.54E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,InternLM2-20b,6.56E-08
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,AquilaChat-7b,1.69E-06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-7B,8.30E-06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-14B,5.20E-06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-72B,1.83E-05
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-7B,0.00E+00
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-13B,0.00E+00
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-70B,2.92E-06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,DeVops-7B,2.09E-07
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,DeVops-14B,7.40E-06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,InternLM2-7B,1.54E-06
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,InternLM2-20B,6.56E-08
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,AquilaChat-7B,1.69E-06
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,GPT-3.5,1.72E-04
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,GPT-4,7.98E-07
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Gemini Pro,2.37E-06
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Mistral-7b,1.07E-07
-Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,BaiChuan2-13b,1.15E-07
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Mistral-7B,1.07E-07
+Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,BaiChuan2-13B,1.15E-07
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,GhatGLM4,1.47E-07
 Log Anomaly Detection,SC Q&A,few-shot,English,F1-score Variance,Claude3 Sonnet,1.33E-07
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-7b,9.70E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-14b,1.53E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-72b,6.30E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-7b,1.48E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-13b,1.65E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-70b,3.41E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-7b,5.72E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-14b,3.43E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-7b,2.20E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-20b,2.65E-08
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,AquilaChat-7b,3.43E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-7B,9.70E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-14B,1.53E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Qwen1.5-72B,6.30E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-7B,1.48E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-13B,1.65E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,LLaMa2-70B,3.41E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-7B,5.72E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,DeVops-14B,3.43E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-7B,2.20E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,InternLM2-20B,2.65E-08
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,AquilaChat-7B,3.43E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,GPT-3.5,8.03E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,GPT-4,5.59E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Gemini Pro,2.76E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Mistral-7b,1.72E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,BaiChuan2-13b,9.44E-08
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Mistral-7B,1.72E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,BaiChuan2-13B,9.44E-08
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,GhatGLM4,1.93E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,Chinese,F1-score Variance,Claude3 Sonnet,4.11E-08
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-7b,9.50E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-14b,8.80E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-72b,6.70E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-7b,5.06E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-13b,1.79E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-70b,1.44E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,DeVops-7b,9.51E-07
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,DeVops-14b,1.23E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-7b,5.15E-07
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-20b,1.78E-08
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,AquilaChat-7b,3.58E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-7B,9.50E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-14B,8.80E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Qwen1.5-72B,6.70E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-7B,5.06E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-13B,1.79E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,LLaMa2-70B,1.44E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,DeVops-7B,9.51E-07
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,DeVops-14B,1.23E-05
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-7B,5.15E-07
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,InternLM2-20B,1.78E-08
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,AquilaChat-7B,3.58E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,GPT-3.5,3.86E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,GPT-4,2.86E-06
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Gemini Pro,8.89E-05
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Mistral-7b,2.14E-06
-Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,BaiChuan2-13b,3.64E-10
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Mistral-7B,2.14E-06
+Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,BaiChuan2-13B,3.64E-10
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,GhatGLM4,1.53E-05
 Log Fault Diagnosis,SC Q&A,zero-shot,English,F1-score Variance,Claude3 Sonnet,1.55E-07
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-7b,6.30E-06
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-14b,9.30E-06
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-72b,1.27E-05
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-7b,1.31E-05
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-13b,2.14E-05
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-70b,4.39E-05
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-7b,2.02E-04
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-14b,3.35E-06
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-7b,3.78E-04
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-20b,4.53E-04
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,AquilaChat-7b,5.13E-05
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-7B,6.30E-06
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-14B,9.30E-06
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Qwen1.5-72B,1.27E-05
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-7B,1.31E-05
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-13B,2.14E-05
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,LLaMa2-70B,4.39E-05
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-7B,2.02E-04
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,DeVops-14B,3.35E-06
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-7B,3.78E-04
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,InternLM2-20B,4.53E-04
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,AquilaChat-7B,5.13E-05
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,GPT-3.5,6.22E-04
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,GPT-4,4.88E-06
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Gemini Pro,3.38E-06
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Mistral-7b,6.56E-04
-Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,BaiChuan2-13b,2.78E-10
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Mistral-7B,6.56E-04
+Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,BaiChuan2-13B,2.78E-10
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,GhatGLM4,8.90E-06
 Log Fault Diagnosis,SC Q&A,few-shot,Chinese,F1-score Variance,Claude3 Sonnet,1.30E-06
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-7b,4.53E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-14b,1.06E-04
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-72b,5.70E-06
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-7b,1.87E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-13b,1.96E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-70b,2.65E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,DeVops-7b,2.80E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,DeVops-14b,8.93E-06
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,InternLM2-7b,8.32E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,InternLM2-20b,5.59E-06
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,AquilaChat-7b,4.51E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-7B,4.53E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-14B,1.06E-04
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Qwen1.5-72B,5.70E-06
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-7B,1.87E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-13B,1.96E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,LLaMa2-70B,2.65E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,DeVops-7B,2.80E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,DeVops-14B,8.93E-06
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,InternLM2-7B,8.32E-05
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,InternLM2-20B,5.59E-06
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,AquilaChat-7B,4.51E-05
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,GPT-3.5,4.11E-04
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,GPT-4,3.60E-07
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Gemini Pro,9.83E-05
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Mistral-7b,3.42E-04
-Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,BaiChuan2-13b,0.00E+00
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Mistral-7B,3.42E-04
+Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,BaiChuan2-13B,0.00E+00
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,GhatGLM4,7.31E-06
 Log Fault Diagnosis,SC Q&A,few-shot,English,F1-score Variance,Claude3 Sonnet,9.14E-07
