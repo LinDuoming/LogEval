@@ -7,7 +7,7 @@
         <td> <div style="display: flex">
             <table border="1" cellspacing="0" style="margin: 5px">
                 <tr style="background-color: aliceblue;"><td>
-                    <b>"id":</b> 0,
+                    <b>"Task":</b> "Parsing",
                 </td></tr>
                 <tr><td>
                     <b>"instruction":</b> "Parse the following log entry into a template format, replacing variable parts with <*>, and focus the answer after the keyword ‘Answer’"
@@ -21,7 +21,7 @@
             </table>
             <table border="1" cellspacing="0" style="margin: 5px">
                 <tr style="background-color: aliceblue;"><td>
-                    <b>"id":</b> 0,
+                    <b>"Task":</b> "Anomaly",
                 </td></tr>
                 <tr><td>
                     <b>"instruction":</b> "Please review the log entry and explicitly mark it as ‘normal’ or ‘anomalous’, only output ‘normal’ or ‘anomalous’"
@@ -35,7 +35,7 @@
             </table>
             <table border="1" cellspacing="0" style="margin: 5px">
                 <tr style="background-color: aliceblue;"><td>
-                    <b>"id":</b> 0,
+                    <b>"Task":</b> "Diagnosis",
                 </td></tr>
                 <tr><td>
                     <b>"instruction":</b>  "In our data scenario, there are three types of faults: Processor CPU Caterr, Memory Throttled Uncorrectable Error Correcting Code, Hard Disk Drive Control Error Computer System Bus Short Circuit Programmable Gate Array Device Unknown. Analyze the log entry and identify the type of fault that occurred. Only output the fault type."
@@ -54,7 +54,7 @@
         <td> <div style="display: flex">
             <table border="1" cellspacing="0" style="margin: 5px">
                 <tr style="background-color: aliceblue;"><td>
-                    <b>"id":</b> 0,
+                    <b>"Task":</b> "Parsing",
                 </td></tr>
                 <tr><td>
                     <b>"instruction":</b> "Parse the following log entry into a template format, replacing variable parts with <*>, and focus the answer after the keyword ‘Answer’. For example: log entry: no floppy controllers found, answer: ‘no floppy controllers found’; log entry: 13 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 4562 seconds, answer: ‘<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds’; log entry: ... autorun DONE., answer: ‘... autorun DONE.’; log entry: 2 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 282 seconds, answer: ‘<*> L3 EDRAM error(s) (dcr <*>) detected and corrected over <*> seconds’; log entry: probe of vesafb0 failed with error -6, answer: ‘probe of vesafb0 failed with error <*>’."
@@ -68,7 +68,7 @@
             </table>
             <table border="1" cellspacing="0" style="margin: 5px">
                 <tr style="background-color: aliceblue;"><td>
-                    <b>"id":</b> 0,
+                    <b>"Task":</b> "Diagnosis",
                 </td></tr>
                 <tr><td>
                     <b>"instruction":</b> "In our data scenario, there are three types of faults {Processor CPU Caterr, Memory Throttled Uncorrectable Error Correcting Code, Hard Disk Drive Control Error Computer System Bus Short Circuit Programmable Gate Array Device Unknown}. Analyze the log entry and identify the type of fault that occurred. Only output the fault type. For Example: log entry: Temperature CPU0_ Margin_ Temp | Lower Critical going low | Asserted | Reading -16 < Threshold 0 degrees C answer: ‘Processor CPU Caterr’; log entry: MemoryCPU1E0_ DIMM_ Stat | Correctable ECC | Asserted answer: ‘Memory Throttled Uncorrectable Error Correcting Code’; log entry: System Boot Initiated BIOS_ Boot_ Up | Initiated by power up | Asserted answer: ‘Hard Disk Drive Control Error Computer System Bus Short Circuit Programmable Gate Array Device Unknown’"
