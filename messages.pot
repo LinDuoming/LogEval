@@ -1,21 +1,21 @@
 # Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-08-20 12:04+0800\n"
+"POT-Creation-Date: 2025-07-02 20:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: templates/base.html:13
 msgid "主页"
@@ -37,7 +37,7 @@ msgstr ""
 msgid " 排行榜"
 msgstr ""
 
-#: templates/base.html:28
+#: templates/base.html:28 templates/example.html:3
 msgid "题目样例"
 msgstr ""
 
@@ -65,6 +65,14 @@ msgstr ""
 msgid "Copyright"
 msgstr ""
 
+#: templates/example.html:6 templates/leaderboard.html:33
+msgid "Zeroshot"
+msgstr ""
+
+#: templates/example.html:53 templates/leaderboard.html:34
+msgid "Fewshot"
+msgstr ""
+
 #: templates/home.html:5
 msgid "大规模语言模型日志分析能力综合基准测试套件"
 msgstr ""
@@ -81,11 +89,11 @@ msgstr ""
 msgid "引用"
 msgstr ""
 
-#: templates/home.html:13
+#: templates/home.html:23
 msgid "联系我们"
 msgstr ""
 
-#: templates/home.html:14
+#: templates/home.html:24
 msgid "对于LogEval有任何问题，或者有可能的合作意向，可以点击 结果提交 页面，填写您的邮箱，或者直接发送邮件到"
 msgstr ""
 
@@ -97,78 +105,74 @@ msgstr ""
 msgid "LogEval是一个全面的基准测试套件，用于评估大型语言模型在日志解析、异常检测、故障诊断和日志总结方面的能力。LogEval使用公开的4,000日志数据条目和每个任务的15个不同提示，以严格评估多个主流大型语言模型。我们将演示大型语言模型在自我一致性和少镜头学习中的表现，并讨论与模型量化相关的研究结果，问答评价，提示工程。LogEval的评估结果揭示了大型语言模型在日志分析任务的优势和局限性，为研究人员选择此类任务的模型提供有价值的参考。我们将不断更新模型评估，以促进进一步的研究和开发。"
 msgstr ""
 
-#: templates/leaderboard.html:9
+#: templates/leaderboard.html:19
 msgid "排行榜"
 msgstr ""
 
-#: templates/leaderboard.html:10
+#: templates/leaderboard.html:20
 msgid "更新时间"
 msgstr ""
 
-#: templates/leaderboard.html:13
+#: templates/leaderboard.html:23
 msgid "日志解析"
 msgstr ""
 
-#: templates/leaderboard.html:14
+#: templates/leaderboard.html:24
 msgid "日志异常检测"
 msgstr ""
 
-#: templates/leaderboard.html:15
+#: templates/leaderboard.html:25
 msgid "日志摘要提取"
 msgstr ""
 
-#: templates/leaderboard.html:16
+#: templates/leaderboard.html:26
 msgid "日志故障诊断"
 msgstr ""
 
-#: templates/leaderboard.html:19
+#: templates/leaderboard.html:29
 msgid "原始问答"
 msgstr ""
 
-#: templates/leaderboard.html:20
+#: templates/leaderboard.html:30
 msgid "自我一致性问答"
 msgstr ""
 
-#: templates/leaderboard.html:23
-msgid "Zeroshot"
-msgstr ""
-
-#: templates/leaderboard.html:24
-msgid "Fewshot"
-msgstr ""
-
-#: templates/leaderboard.html:43 templates/leaderboard.html:56
-#: templates/leaderboard.html:69
+#: templates/leaderboard.html:53 templates/leaderboard.html:66
+#: templates/leaderboard.html:79
 msgid "模型"
 msgstr ""
 
-#: templates/leaderboard.html:44 templates/leaderboard.html:57
-#: templates/leaderboard.html:70
+#: templates/leaderboard.html:54 templates/leaderboard.html:67
+#: templates/leaderboard.html:80
 msgid "中文"
 msgstr ""
 
-#: templates/leaderboard.html:45 templates/leaderboard.html:58
-#: templates/leaderboard.html:71
+#: templates/leaderboard.html:55 templates/leaderboard.html:68
+#: templates/leaderboard.html:81
 msgid "英文"
 msgstr ""
 
-#: templates/leaderboard.html:48 templates/leaderboard.html:50
-#: templates/leaderboard.html:61 templates/leaderboard.html:63
-#: templates/leaderboard.html:74 templates/leaderboard.html:77
+#: templates/leaderboard.html:58 templates/leaderboard.html:60
+#: templates/leaderboard.html:71 templates/leaderboard.html:73
+#: templates/leaderboard.html:84 templates/leaderboard.html:87
 msgid "正确率"
 msgstr ""
 
-#: templates/leaderboard.html:49 templates/leaderboard.html:51
+#: templates/leaderboard.html:59 templates/leaderboard.html:61
 msgid "编辑距离"
 msgstr ""
 
-#: templates/leaderboard.html:62 templates/leaderboard.html:64
-#: templates/leaderboard.html:75 templates/leaderboard.html:78
+#: templates/leaderboard.html:72 templates/leaderboard.html:74
+#: templates/leaderboard.html:85 templates/leaderboard.html:88
 msgid "F1评分"
 msgstr ""
 
-#: templates/leaderboard.html:76 templates/leaderboard.html:79
+#: templates/leaderboard.html:86 templates/leaderboard.html:89
 msgid "F1评分方差"
+msgstr ""
+
+#: templates/leaderboard.html:95
+msgid "对应论文章节："
 msgstr ""
 
 #: templates/submit.html:3
