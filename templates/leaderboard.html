@@ -128,7 +128,7 @@
             else if (status.side == "nativeQA") document.getElementById("h_f1-score").style.display = null;
             else document.getElementById("h_f1-var").style.display = null;
 
-            chapter_cor = document.getElementById("chapter_cor")
+            let chapter_cor = document.getElementById("chapter_cor")
             if (status.task == "parsing") chapter_cor.innerText = "Chapter 4.2.1"
             else if (status.task == "abnormal" && status.side == "nativeQA") chapter_cor.innerText = "Chapter 4.2.2"
             else if (status.task == "abnormal" && status.side == "scQA") chapter_cor.innerText = "Chapter 4.3.1"
