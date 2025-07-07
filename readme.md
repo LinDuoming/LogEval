@@ -8,19 +8,19 @@ old_proj/
 static/
 templates/
 translations/
-└──  en/
-	 └── LC_MESSAGES/
-	 	 ├── messages.mo
-	 	 └── messages.po
+└── en/
+    └── LC_MESSAGES/
+         ├── messages.mo
+         └── messages.po
 app.py								# Application entry point
 babel.cfg							# Multilingual configure
 datasrc.py							# Acquisition of variable resources
 index.html							# Website entry point
-leaderboard.csv						# Leaderboard data
-messages.pot						# Multilingual related
+leaderboard.csv						        # Leaderboard data
+messages.pot						        # Multilingual related
 news.json							# News data
-requirements.txt					# Requirements for running
-submitted.csv						# Submitted data from users
+requirements.txt					        # Requirements for running
+submitted.csv						        # Submitted data from users
 ```
 
 ## Detailed File and Directory Descriptions
@@ -173,10 +173,10 @@ submitted.csv						# Submitted data from users
 
 ```
 translations/
-└── en/                 # English language directory
-     └── LC_MESSAGES/   # Standard locale message directory
-          ├── messages.mo  # Compiled translation file
-          └── messages.po  # Source translation file
+└── en/                            # English language directory
+     └── LC_MESSAGES/              # Standard locale message directory
+          ├── messages.mo          # Compiled translation file
+          └── messages.po          # Source translation file
 ```
 
 - **Files:**
