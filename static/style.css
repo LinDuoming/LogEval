@@ -16,6 +16,10 @@
     font-weight: bold;
 }
 
+.home-org-sign {
+    height: 5em;
+}
+
 .bibtex {
     border: 1px solid;
     border-radius: 5px;

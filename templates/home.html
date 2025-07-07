@@ -22,5 +22,10 @@
     </pre>
     <div class="home-subtitle">{{ _('联系我们') }}</div>
     <p id="contactor">{{ _('对于LogEval有任何问题，或者有可能的合作意向，可以点击 结果提交 页面，填写您的邮箱，或者直接发送邮件到') }} cuitianyu@mail.nankai.edu.cn</p>
+    <div style="display: flex; width: -webkit-fill-available; justify-content: center;">
+        <img class="home-org-sign" src="{{ url_for('static', filename='Nankai.jpg') }}">
+        <img class="home-org-sign" src="{{ url_for('static', filename='Tsinghua.jpg') }}">
+        <img class="home-org-sign" src="{{ url_for('static', filename='Huawei.jpg') }}">
+    </div>
 </div>
 {% endblock %}
